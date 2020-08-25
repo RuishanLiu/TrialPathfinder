@@ -36,6 +36,7 @@ Basic usage of this package:
     from TrialPathfinder import cohort_selection, emulate_trials, survival_analysis, shapley_computation
     
     ###### Encode Eligibility Criteria #####
+    
     # Create cohort selection object
     cohort = cohort_selection(patientids, name_patientid='patientid')
     # Add the data tables needed in the eligibility criterion
@@ -44,17 +45,21 @@ Basic usage of this package:
     cohort.add_rule(rule1)
     
     ###### Emulate Existing Trials ######
+    
     # Given a combination of eligibility rules names_rules (an empty list [] indicates fully-relaxed criteria), process patients features for survival analysis (features is pandas Dataframe by default).
     data_survival = emulate_trials(cohort, features, names_rules)
     
     ###### Survival Analysis ######
+    
     HR, confidence_interval, p_value = survival_analysis(data_survival)
     
     ###### Evalute Individual Criterion ######
+    
     # Return the Shapley values for each rule in names_rules
     shapley_values = shapley_computation(cohort, features, drug_treatment, drug_control, names_rules)
     
     ###### Criteria Relaxation - Data-driven Criteria ######
+    
     # Select all the rules with Shapley value less than -0.01
     names_rules_relax = names_rules[shapley_values<-0.01]
     # Survival analysis on the data-driven criteria
