@@ -12,7 +12,8 @@ Installation
 
 Download this repository and run
 
-.. code-block:: python
+.. code-block:: shell
+
     $python setup.py
 
 
