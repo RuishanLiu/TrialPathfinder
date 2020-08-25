@@ -11,6 +11,7 @@ Installation
 --------------------
 
 Download this repository and run
+
 .. code-block:: shell-session
     python setup.py
 
@@ -28,6 +29,7 @@ Usage
 This repository provides examples to use the library. See the python notebooks in the :code:`examples` folder (will be uploaded soon when the de-identification of Flatiron data structrue is ready).
 
 Basic usage of this package:
+
 .. code-block:: python
 
     from TrialPathfinder import cohort_selection, emulate_trials, survival_analysis, shapley_computation
