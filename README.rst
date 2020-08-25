@@ -12,7 +12,7 @@ Installation
 
 Download this repository and run
 
-.. code-block:: shell-session
+.. code-block:: shell
     python setup.py
 
 
