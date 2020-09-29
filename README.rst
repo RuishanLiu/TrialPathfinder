@@ -7,14 +7,28 @@ Functions provided by this package: encoding eligibility criteria, emulating exi
 
 Working paper. More background and information will be provided when the paper is ready.
 
+This repository contains examples to use the library. See the python notebooks in the :code:`experiments` folder.
+
 Installation
 --------------------
-
-Download this repository and run
+Option 1: Install through PyPI.
 
 .. code-block:: shell
 
-    $python setup.py
+    pip install TrialPathfinder
+    
+Option 2: Install through Github.
+
+.. code-block:: shell
+
+    sudo pip install git+git://github.com/RuishanLiu/TrialPathfinder.git#egg=TrialPathfinder
+        
+Option 3: Download repository and then install manually.
+
+.. code-block:: shell
+
+    cd TrialPathfinder/
+    python setup.py install --user
 
 
 Import
@@ -27,7 +41,7 @@ Import
    
 Usage
 -------------------------------
-This repository provides examples to use the library. See the python notebooks in the :code:`examples` folder (will be uploaded soon when the de-identification of Flatiron data structrue is ready).
+This repository provides examples to use the library.
 
 Basic usage of this package:
 

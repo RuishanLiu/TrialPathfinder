@@ -1,11 +1,11 @@
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
+
 import pandas as pd
 import numpy as np
 import datetime
 import os, sys
 import matplotlib.pyplot as plt 
-
-import warnings
-warnings.simplefilter(action='ignore', category=FutureWarning)
 
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
@@ -13,53 +13,12 @@ from sklearn.neighbors import NearestNeighbors
 
 from lifelines import CoxPHFitter, KaplanMeierFitter
 
-from .data_loader import *
-
-
 def select_feature(cohort, features):
     '''
     return the features for selected cohort
     '''
     name_patientid = cohort.name_patientid
     return features.loc[features[name_patientid].isin(cohort.select_id)]
-
-def plot_cohortdist(cohort, name_features, names_rules):
-    fontsize = 12
-    n_col = 3
-    width = 0.5 / len(names_rules)
-    n_row = int(np.ceil((len(name_features)+1)/float(n_col)))
-    fig, axs = plt.subplots(n_row, 3, figsize=(16, n_row*3.5))
-    i_ax = 0
-    axs = [axi for ax in axs for axi in ax]
-    for name_feature in name_features:
-        for i_rules, name_rules in enumerate(names_rules):
-            cohort.selection(name_rules)
-            features_sub = select_feature(cohort, features)
-            values = features_sub[name_feature]
-            if type(values.loc[values!=MISSING].iloc[0]) is not str:
-                values = values.loc[values!=MISSING]
-                axs[i_ax].hist(values, label=' + '.join(name_rules), bins=min(len(set(values)), 200), density=True, histtype=u'step')
-            else:
-                sign_categorical = True
-                name_values = list(set(list(values)))
-                values = np.array([np.sum(values==name_value) for name_value in name_values])
-                values = values / float(np.sum(values))
-                axs[i_ax].bar(np.arange(len(name_values)) + i_rules * width - 0.5*width, values, width, capsize=5)
-                axs[i_ax].set_xticks(np.arange(len(name_values)))
-                axs[i_ax].set_xticklabels(name_values, fontsize=fontsize, rotation=40)
-        axs[i_ax].set_xlabel(name_feature, fontsize=fontsize)
-        axs[i_ax].set_ylabel('Density', fontsize=fontsize)
-        i_ax += 1
-    axs[i_ax].legend(['a' 'b'], fontsize=fontsize) #, bbox_to_anchor=(1, 1), loc='upper left')
-    while i_ax < n_row*n_col:
-        axs[i_ax].axis('off')
-        i_ax += 1
-    fig.tight_layout()
-    fig.legend([' + '.join(name_rules) for name_rules in names_rules], 
-               loc='lower right', bbox_to_anchor=(0.7, 0.), fontsize=fontsize)
-
-    return None
-
 
 string_startdate = 'startdate' # 'startdate'  'startdate_drug'
 def generate_survival_data(df_raw, covariates_col=None, thresh_censor=None, dateofevent='dateofdeath'): # 'dateofdeath' 'progressiondate_toend'
@@ -87,7 +46,6 @@ def generate_survival_data(df_raw, covariates_col=None, thresh_censor=None, date
         inds_longer = df['duration_recomputed']>thresh_censor
         df.loc[inds_longer, 'duration_recomputed'] = thresh_censor
         df.loc[inds_longer, 'event'] = False
-        
 
     # Add covariates
     if covariates_col is not None:
@@ -181,41 +139,6 @@ def generate_cox_data(data_trial, ps_method='IPTW', verbose=1):
     
     return df
 
-
-def get_feature_names(freq_lab=[], freq_vitals=[], thresh_labs=100, 
-                      use_demographics=True, use_biomarkers=True, use_lab=True, use_lab_velocity=True, 
-                      use_icd=True, sign_lab_categorical=False, sign_icd10_class=True):
-    '''
-    Return categorical feature names and names_continuous feature names.
-    '''
-    names_labs = list(freq_lab[freq_lab[:, 2].astype(np.int) > thresh_labs, 0]) 
-    names_labs += list(freq_vitals[freq_vitals[:, 2].astype(np.int) > thresh_labs, 0])
-    
-    names = []
-
-    names_continuous = ['age'] if use_demographics else []
-    names_categorical = ['gender', 'RaceEthnicity', 'histology', 'smokingstatus',
-                         'groupstage_group', 'ecog_group'] if use_demographics else []
-
-    if use_biomarkers:
-        names_categorical += ['ALK', 'EGFR', 'PDL1', 'ROS1', 'KRAS', 'BRAF']
-
-    if sign_lab_categorical and use_lab:
-        names_categorical += names_labs + ['bmi_group']
-    else:
-        if use_lab:
-            names_continuous += [labname+' (testresultcleaned)' for labname in names_labs] + ['bmi']
-        if use_lab_velocity:
-            names_continuous += [labname+' (velocity)' for labname in names_labs]
-
-    if use_icd:
-        if sign_icd10_class:
-            names_continuous += list(ICD10_CLASS1)
-        else:
-            names_continuous += list(names_icd10)
-    return names_categorical, names_continuous
-
-
 def generate_trial_cox(cohort, data_survival, arm_exp, arm_control, name_rules=[], ps_method='IPTW', continuous_col=[], categorical_col=[], verbose=1):
     '''
     Generate Trial data and Cox data from cohort and survival data
@@ -262,65 +185,4 @@ def cox(data_cox, data_trial, ps_method='IPTW'):
 
     HR = cph.hazard_ratios_['treatment']
     return HR, cph
-
-
-
-########### KaplanMeierFitter
-
-def get_median(timeline, survival_func):
-    '''
-    Given the timeline and suvival_func, return the median time
-    '''
-    timeline = np.array(timeline).reshape(-1)
-    survival_func = np.array(survival_func).reshape(-1)
-    inds_lower_median = np.arange(survival_func.shape[0])[survival_func <= 0.5]
-    if len(inds_lower_median) == 0:
-        return timeline[-1]
-    else:
-        return timeline[inds_lower_median[0]]
-
-def median_conf(kmf):
-    '''
-    Given a fitted KaplanMetierFitter, return [median time, lower 95%, higher 95%]
-    '''
-    timeline = np.array(kmf.survival_function_.index)
-    median = get_median(timeline, kmf.survival_function_)
-    lower = get_median(timeline, kmf.confidence_interval_.iloc[:, 1])
-    higher = get_median(timeline, kmf.confidence_interval_.iloc[:, 0])
-    return np.array([median, lower, higher])
-                    
-
-def plot_survival(data_cox, data_trial, ps_method='IPTW', plot=True):
-    '''
-    https://lifelines.readthedocs.io/en/latest/lifelines.fitters.html#lifelines.fitters.kaplan_meier_fitter.KaplanMeierFitter
-    '''
-                    
-    kmf = KaplanMeierFitter()
-
-    median_times = []
-    areas = []
-    sc_plot = []
-    if plot:
-        plt.figure()
-    for treatment in [0, 1]:
-        df_ = data_cox.loc[data_cox['treatment']==treatment]
-        label = 'experiment' if treatment == 1 else 'control'
-        if 'IPTW' in ps_method:
-            kmf.fit(df_['duration_recomputed'], df_['event'], weights=df_['weights'])
-        elif ps_method == 'Match':
-            kmf.fit(df_['duration_recomputed'], df_['event'])
-        survival_function = np.array(kmf.survival_function_).reshape(-1)
-        timeline = kmf.timeline
-        if plot:
-            plt.plot(timeline, survival_function, label=label)
-        median_times.append(kmf.median_) # median_conf(kmf)
-        areas.append(np.trapz(survival_function, timeline) / (timeline[-1] - timeline[0]))
-        sc_plot.append([timeline, survival_function])
-
-    if plot:
-        plt.legend()
-        plt.xlabel('Time to Death (days)')
-        plt.ylabel('Survival Probabiliy')
-        
-    return median_times, areas, sc_plot
     
