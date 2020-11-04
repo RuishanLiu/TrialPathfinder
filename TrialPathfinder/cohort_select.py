@@ -4,14 +4,14 @@ import datetime
 import os
 
 class cohort_selection(object):
-    def __init__(self, patientids, name_patientid='patientid', lower=True):
+    def __init__(self, patientids, name_PatientID='PatientID', lower=True):
         '''
-        name_patientid: the patientid name in all tables
+        name_PatientID: the patientid name in all tables
         If lower=True, store all table names in lower case.
         '''
         patientids = list(patientids)
-        patientids = pd.DataFrame(patientids, columns=[name_patientid])
-        patientids.index = patientids[name_patientid]
+        patientids = pd.DataFrame(patientids, columns=[name_PatientID])
+        patientids.index = patientids[name_PatientID]
         if patientids.shape[1] != 1 and len(patientids.shape)!=2:
             sys.exit('patientids must be one dimensional!')
             
@@ -20,7 +20,7 @@ class cohort_selection(object):
         self.missing = dict()
         self.patientids = patientids
         self.lower = lower
-        self.name_patientid = name_patientid
+        self.name_PatientID = name_PatientID
         self.tables = {}
         
     def self_name(self, name, lower=True):
@@ -160,12 +160,12 @@ class cohort_selection(object):
         
     def add_prefix(self, name, table):
         '''
-        Add prefix name_ to every column name of table, except for self.name_patientid
+        Add prefix name_ to every column name of table, except for self.name_PatientID
         '''
         columns = table.columns
         columns_processed = []
         for col in columns:
-            if col != self.name_patientid:
+            if col != self.name_PatientID:
                 col = '%s_%s' % (name, col)
             columns_processed.append(col)
         table.columns = columns_processed
@@ -272,9 +272,9 @@ class cohort_selection(object):
         '''
         values = select.copy()
         select.iloc[:] = False
-        patientid_set = list(set(list(self.exec_tables['table_merge'].loc[values.index, self.name_patientid])))
+        patientid_set = list(set(list(self.exec_tables['table_merge'].loc[values.index, self.name_PatientID])))
         for patientid in patientid_set:
-            table_idx = list(self.exec_tables['table_merge'].loc[self.exec_tables['table_merge'][self.name_patientid]==patientid].index)
+            table_idx = list(self.exec_tables['table_merge'].loc[self.exec_tables['table_merge'][self.name_PatientID]==patientid].index)
             if len(table_idx) > 0:
                 values_sub = list(values.loc[table_idx])
                 if comp == 'min':
@@ -363,7 +363,7 @@ class cohort_selection(object):
                         tables_use = [self.add_prefix(name, self.exec_tables[name].copy()) for name in names_table_set]
                         table_merge = tables_use[0]
                         for table in tables_use[1:]:
-                            table_merge = pd.merge(table_merge, table, on=self.name_patientid).copy()
+                            table_merge = pd.merge(table_merge, table, on=self.name_PatientID).copy()
                         self.exec_tables['table_merge'] = table_merge.copy()
                         merge = True
 
@@ -385,10 +385,10 @@ class cohort_selection(object):
 
                     if last:
                         # select = whether selected for patientids
-                        exec_string = 'self.exec_var[\'select\'] = self.exec_tables[\'%s\'].loc[select, \'%s\']' % (name_table, self.name_patientid)
+                        exec_string = 'self.exec_var[\'select\'] = self.exec_tables[\'%s\'].loc[select, \'%s\']' % (name_table, self.name_PatientID)
                         exec(exec_string)
                         select = self.exec_var['select']
-                        select = self.patientids[self.name_patientid].isin(select)
+                        select = self.patientids[self.name_PatientID].isin(select)
                         selects.append(select)
                     else:
                         # select = whether selected for name_table
@@ -407,12 +407,12 @@ class cohort_selection(object):
                 select_final = self.exec_var['select_final']
                 
                 if last:
-                    exec_string = 'self.exec_var[\'missing\'] = ~self.patientids[self.name_patientid].isin(self.exec_tables[\'%s\'][self.name_patientid])' % (name_table)
+                    exec_string = 'self.exec_var[\'missing\'] = ~self.patientids[self.name_PatientID].isin(self.exec_tables[\'%s\'][self.name_PatientID])' % (name_table)
                     exec(exec_string)
                     missing = self.exec_var['missing']
                     # Patient missing in any table of the last statement
                     for name_table_last in names_table[1:]:
-                        exec_string = 'self.exec_var[\'missing\'] = ~self.patientids[self.name_patientid].isin(self.exec_tables[\'%s\'][self.name_patientid])' % (name_table_last)
+                        exec_string = 'self.exec_var[\'missing\'] = ~self.patientids[self.name_PatientID].isin(self.exec_tables[\'%s\'][self.name_PatientID])' % (name_table_last)
                         exec(exec_string)
                         missing = missing | self.exec_var['missing']
 
@@ -422,11 +422,11 @@ class cohort_selection(object):
                     exec_string = 'self.exec_tables[\'%s\'] = self.exec_tables[\'%s\'].loc[select_final]' % (name_table, name_table)
                     exec(exec_string)
                     # get the patientid from new name_table
-                    exec_string = 'self.exec_var[\'select_final\'] = self.exec_tables[\'%s\'][\'%s\']' % (name_table, self.name_patientid)
+                    exec_string = 'self.exec_var[\'select_final\'] = self.exec_tables[\'%s\'][\'%s\']' % (name_table, self.name_PatientID)
                     exec(exec_string)
                     # whether self.patientid in patientid
                     select_final = self.exec_var['select_final']
-                    select_final = self.patientids[self.name_patientid].isin(select_final)
+                    select_final = self.patientids[self.name_PatientID].isin(select_final)
 
                 selects_final.append(select_final)
 
@@ -491,7 +491,7 @@ class cohort_selection(object):
             select = self.selects[name_rules[0]].copy()
             for name_rule in name_rules[1:]:
                 select &= self.selects[name_rule]
-        select_id = list(self.patientids.loc[select, self.name_patientid])
+        select_id = list(self.patientids.loc[select, self.name_PatientID])
         self.select_id = select_id
         return select_id
     

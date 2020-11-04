@@ -1,0 +1,21 @@
+﻿"Age
+#Inclusion
+features['StartDate'] >= demographics['BirthDate'] + @YEARS(18)"
+"Histology_Squamous
+#Inclusion
+(demographics['Histology'] == 'Squamous cell carcinoma')"
+"ECOG
+#Inclusion
+(features['ECOG'] == 0) OR (features['ECOG'] == 1)"
+"Platelets
+#Inclusion
+(lab['LabName'] == 'Platelet count')
+(lab['TestDate'] >= features['StartDate'] - @DAYS(28) ) AND (lab['TestDate'] <= features['StartDate'])
+MIN(ABS(lab['TestDate'] - features['StartDate']))
+lab['LabValue'] >= 100"
+"Bilirubin
+#Inclusion
+(lab['LabName'] == 'Total bilirubin')
+(lab['TestDate'] >= features['StartDate'] - @DAYS(28) ) AND (lab['TestDate'] <= features['StartDate'])
+MIN(ABS(lab['TestDate'] - features['StartDate']))
+lab['LabValue'] <= 1"
