@@ -1,0 +1,157 @@
+"Age
+#inclusion
+(lineoftherapy['linenumber']==2) AND (lineoftherapy['ismaintenancetherapy']==False)
+
+(lineoftherapy['startdate'] >= demographics['birthyear'] + @YEARS(18))"
+"Histology_Any
+#inclusion
+(enhanced_advancednsclc['histology'] == 'Squamous cell carcinoma') OR (enhanced_advancednsclc['histology'] == 'Non-squamous cell carcinoma')"
+"Staging
+#inclusion
+(lineoftherapy['linenumber']==2) AND (lineoftherapy['ismaintenancetherapy']==False)
+
+(lineoftherapy['startdate'] >= demographics['birthyear'] + @YEARS(18))"
+"EGFR_drug
+#exclusion
+(lineoftherapy['linenumber']==1) AND (lineoftherapy['ismaintenancetherapy']==False)
+
+(enhanced_advnsclcbiomarkers['biomarkername'] == 'EGFR') AND (enhanced_advnsclcbiomarkers['biomarkerstatus']=='Mutation positive')
+
+(enhanced_advnsclcbiomarkers['specimencollecteddate'] < lineoftherapy['startdate']) 
+
+(medicationorder['drugname'] != 'Erlotinib') AND (medicationorder['drugname'] != 'Gefitinib')"
+"ALK_drug
+#exclusion
+
+(lineoftherapy['linenumber']==1) AND (lineoftherapy['ismaintenancetherapy']==False)
+
+(enhanced_advnsclcbiomarkers['biomarkername'] == 'ALK') AND (enhanced_advnsclcbiomarkers['biomarkerstatus']=='Rearrangement present')
+
+(enhanced_advnsclcbiomarkers['specimencollecteddate'] < lineoftherapy['startdate']) 
+
+(medicationorder['drugname'] != 'Crizotinib')"
+"ECOG
+#Inclusion
+(lineoftherapy['linenumber']==2) AND (lineoftherapy['ismaintenancetherapy']==False)
+
+(ecog[‘ecogdate’] >= lineoftherapy['startdate'] - @DAYS(30) ) AND (ecog[‘ecogdate’] <= lineoftherapy['startdate'] + @DAYS(7) )
+
+MIN(ABS(ecog[‘ecogdate’] - lineoftherapy['startdate']))
+
+(ecog['ecogvalue'] == 0) OR (ecog['ecogvalue'] == 1)"
+"WBC_v2
+#inclusion
+
+(lineoftherapy['linenumber']==2) AND (lineoftherapy['ismaintenancetherapy']==False)
+
+lab['labcomponent'] == 'White Blood Cell Count'
+
+(lab[‘testdate’] >= lineoftherapy['startdate'] - @DAYS(28) ) AND (lab[‘testdate’] <= lineoftherapy['startdate'])
+
+MIN(ABS(lab[‘testdate’] - lineoftherapy['startdate']))
+
+(lab['testresultcleaned'] >= 2.5)"
+"Lymphocyte
+#inclusion
+
+(lineoftherapy['linenumber']==2) AND (lineoftherapy['ismaintenancetherapy']==False)
+
+lab['labcomponent'] == 'Lymphocyte Count Absolute'
+
+(lab[‘testdate’] >= lineoftherapy['startdate'] - @DAYS(28) ) AND (lab[‘testdate’] <= lineoftherapy['startdate'])
+
+MIN(ABS(lab[‘testdate’] - lineoftherapy['startdate']))
+
+(lab['testresultcleaned'] >= 0.5)"
+"Albumin
+#inclusion
+
+(lineoftherapy['linenumber']==2) AND (lineoftherapy['ismaintenancetherapy']==False)
+
+lab['labcomponent'] == 'Albumin, serum'
+
+(lab[‘testdate’] >= lineoftherapy['startdate'] - @DAYS(28) ) AND (lab[‘testdate’] <= lineoftherapy['startdate'])
+
+MIN(ABS(lab[‘testdate’] - lineoftherapy['startdate']))
+
+(lab['testresultcleaned'] >= 2.5)"
+"Platelets
+#inclusion
+
+(lineoftherapy['linenumber']==2) AND (lineoftherapy['ismaintenancetherapy']==False)
+
+lab['labcomponent'] == 'Platelet count' 
+
+(lab[‘testdate’] >= lineoftherapy['startdate'] - @DAYS(28) ) AND (lab[‘testdate’] <= lineoftherapy['startdate'])
+
+MIN(ABS(lab[‘testdate’] - lineoftherapy['startdate']))
+
+lab['testresultcleaned'] >= 100"
+"Hemoglobin
+#inclusion
+
+(lineoftherapy['linenumber']==2) AND (lineoftherapy['ismaintenancetherapy']==False)
+
+lab['labcomponent'] == 'Hemoglobin, whole blood'
+
+(lab[‘testdate’] >= lineoftherapy['startdate'] - @DAYS(28) ) AND (lab[‘testdate’] <= lineoftherapy['startdate'])
+
+MIN(ABS(lab[‘testdate’] -lineoftherapy['startdate']))
+
+lab['testresultcleaned'] >= 9"
+"ALT_v2
+#inclusion
+
+(lineoftherapy['linenumber']==2) AND (lineoftherapy['ismaintenancetherapy']==False)
+
+lab['labcomponent'] == 'Alanine aminotransferase (ALT or SGPT)' 
+
+(lab[‘testdate’] >= lineoftherapy['startdate'] - @DAYS(28) ) AND (lab[‘testdate’] <= lineoftherapy['startdate'])
+
+MIN(ABS(lab[‘testdate’] -lineoftherapy['startdate']))
+
+lab['testresultcleaned'] <= 1.5 * lab['maxnormcleaned']"
+"AST_v2
+#inclusion
+
+(lineoftherapy['linenumber']==2) AND (lineoftherapy['ismaintenancetherapy']==False)
+
+lab['labcomponent'] == 'Aspartate aminotransferase (AST or SGOT)' 
+
+(lab[‘testdate’] >= lineoftherapy['startdate'] - @DAYS(28) ) AND (lab[‘testdate’] <= lineoftherapy['startdate'])
+
+MIN(ABS(lab[‘testdate’] -lineoftherapy['startdate']))
+
+lab['testresultcleaned'] <= 1.5 * lab['maxnormcleaned']"
+"Bilirubin_v2
+#inclusion
+
+(lineoftherapy['linenumber']==2) AND (lineoftherapy['ismaintenancetherapy']==False)
+
+lab['labcomponent'] == 'Bilirubin (Total), serum' 
+
+(lab[‘testdate’] >= lineoftherapy['startdate'] - @DAYS(28) ) AND (lab[‘testdate’] <= lineoftherapy['startdate'])
+
+MIN(ABS(lab[‘testdate’] -lineoftherapy['startdate']))
+
+lab['testresultcleaned'] <= lab['maxnormcleaned']"
+"CNS_Metastasis
+#exclusion
+(lineoftherapy['linenumber']==2) AND (lineoftherapy['ismaintenancetherapy']==False)
+diagnosis['diagnosisdate'] < lineoftherapy['startdate']
+(diagnosis['diagnosiscode'] == '198.4' OR diagnosis['diagnosiscode'] == 'C79.4')"
+"PDL1-exclude-Docetaxel
+#exclusion
+
+(lineoftherapy['linenumber'] == 1)
+
+(lineoftherapy['linename'] == 'Docetaxel')"
+"CYP3A4
+#exclusion
+(medicationorder['drugname'] == 'ketoconazole') OR (medicationorder['drugname'] == 'itraconazole') OR (medicationorder['drugname'] == 'clarithromycin') OR (medicationorder['drugname'] == 'atazanvir') OR (medicationorder['drugname'] == 'indinavir') OR (medicationorder['drugname'] == 'nefazodone') OR (medicationorder['drugname'] == 'nelfinavir') OR (medicationorder['drugname'] == 'ritonavir') OR (medicationorder['drugname'] == 'saquinavir') OR (medicationorder['drugname'] == 'teithromycin') OR (medicationorder['drugname'] == 'voriconazole')"
+"PDL1-exclude-lpilimumab
+#exclusion
+
+(lineoftherapy['linenumber'] == 1) 
+
+(lineoftherapy['linename'] == 'Ipilimumab')"
