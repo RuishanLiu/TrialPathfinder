@@ -1,154 +1,154 @@
 "ECOG
 #Inclusion
-(lineoftherapy['linenumber']==2) AND (lineoftherapy['ismaintenancetherapy']==False)
+(treatments['linenumber']==2) AND (treatments['maintenance']==False)
 
-(ecog[‘ecogdate’] >= lineoftherapy['startdate'] - @DAYS(30) ) AND (ecog[‘ecogdate’] <= lineoftherapy['startdate'] + @DAYS(7) )
+(ecog[‘ecogdate’] >= treatments['startdate'] - @DAYS(30) ) AND (ecog[‘ecogdate’] <= treatments['startdate'] + @DAYS(7) )
 
-MIN(ABS(ecog[‘ecogdate’] - lineoftherapy['startdate']))
+MIN(ABS(ecog[‘ecogdate’] - treatments['startdate']))
 
 (ecog['ecogvalue'] == 0) OR (ecog['ecogvalue'] == 1)"
 "Staging
 #inclusion
-(lineoftherapy['linenumber']==2) AND (lineoftherapy['ismaintenancetherapy']==False)
+(treatments['linenumber']==2) AND (treatments['maintenance']==False)
 
-(lineoftherapy['startdate'] >= demographics['birthyear'] + @YEARS(18))"
+(treatments['startdate'] >= demographics['birthyear'] + @YEARS(18))"
 "FirstProgression
 #inclusion
-(lineoftherapy['linenumber'] == 1) AND (lineoftherapy['ismaintenancetherapy'] == False)
+(treatments['linenumber'] == 1) AND (treatments['maintenance'] == False)
 
-(lineoftherapy['linename'] == 'Carboplatin,Paclitaxel') OR (lineoftherapy['linename'] == 'Carboplatin,Pemetrexed')
+(treatments['linename'] == 'Carboplatin,Paclitaxel') OR (treatments['linename'] == 'Carboplatin,Pemetrexed')
 
-enhanced_advnsclcprogression['progressiondate'] >= lineoftherapy['startdate']"
+enhanced_advnsclcprogression['progressiondate'] >= treatments['startdate']"
 "maintenance
 #inclusion
-(lineoftherapy['linenumber'] == 1) AND (lineoftherapy['ismaintenancetherapy'] == True)
+(treatments['linenumber'] == 1) AND (treatments['maintenance'] == True)
 
-(lineoftherapy['linename'] == 'Erlotinib')
+(treatments['linename'] == 'Erlotinib')
 
-enhanced_advnsclcprogression['progressiondate'] >= lineoftherapy['startdate']"
+enhanced_advnsclcprogression['progressiondate'] >= treatments['startdate']"
 "WBC
 #inclusion
 
-(lineoftherapy['linenumber']==2) AND (lineoftherapy['ismaintenancetherapy']==False)
+(treatments['linenumber']==2) AND (treatments['maintenance']==False)
 
-lab['labcomponent'] == 'White Blood Cell Count'
+lab['name'] == 'White Blood Cell Count'
 
-(lab[‘testdate’] >= lineoftherapy['startdate'] - @DAYS(28) ) AND (lab[‘testdate’] <= lineoftherapy['startdate'])
+(lab[‘testdate’] >= treatments['startdate'] - @DAYS(28) ) AND (lab[‘testdate’] <= treatments['startdate'])
 
-MIN(ABS(lab[‘testdate’] - lineoftherapy['startdate']))
+MIN(ABS(lab[‘testdate’] - treatments['startdate']))
 
 (lab['testresultcleaned'] >= 2)"
 "Neutrophils
 #inclusion
 
-(lineoftherapy['linenumber']==2) AND (lineoftherapy['ismaintenancetherapy']==False)
+(treatments['linenumber']==2) AND (treatments['maintenance']==False)
 
-(lab['labcomponent'] == 'Neutrophil count (absolute)') OR (lab['labcomponent'] == 'Granulocytes #') 
+(lab['name'] == 'Neutrophil count (absolute)') OR (lab['name'] == 'Granulocytes #') 
 
-(lab[‘testdate’] >= lineoftherapy['startdate'] - @DAYS(28) ) AND (lab[‘testdate’] <= lineoftherapy['startdate'])
+(lab[‘testdate’] >= treatments['startdate'] - @DAYS(28) ) AND (lab[‘testdate’] <= treatments['startdate'])
 
-MIN(ABS(lab[‘testdate’] - lineoftherapy['startdate']))
+MIN(ABS(lab[‘testdate’] - treatments['startdate']))
 
-((lab['labcomponent'] == 'Neutrophil count (absolute)') AND (lab['testresultcleaned'] >= 1.5)) OR ((lab['labcomponent'] == 'Granulocytes #') AND (lab['testresultcleaned'] >= 0.0015)) "
+((lab['name'] == 'Neutrophil count (absolute)') AND (lab['testresultcleaned'] >= 1.5)) OR ((lab['name'] == 'Granulocytes #') AND (lab['testresultcleaned'] >= 0.0015)) "
 "Platelets
 #inclusion
 
-(lineoftherapy['linenumber']==2) AND (lineoftherapy['ismaintenancetherapy']==False)
+(treatments['linenumber']==2) AND (treatments['maintenance']==False)
 
-lab['labcomponent'] == 'Platelet count' 
+lab['name'] == 'Platelet count' 
 
-(lab[‘testdate’] >= lineoftherapy['startdate'] - @DAYS(28) ) AND (lab[‘testdate’] <= lineoftherapy['startdate'])
+(lab[‘testdate’] >= treatments['startdate'] - @DAYS(28) ) AND (lab[‘testdate’] <= treatments['startdate'])
 
-MIN(ABS(lab[‘testdate’] - lineoftherapy['startdate']))
+MIN(ABS(lab[‘testdate’] - treatments['startdate']))
 
 lab['testresultcleaned'] >= 100"
 "Hemoglobin
 #inclusion
 
-(lineoftherapy['linenumber']==2) AND (lineoftherapy['ismaintenancetherapy']==False)
+(treatments['linenumber']==2) AND (treatments['maintenance']==False)
 
-lab['labcomponent'] == 'Hemoglobin, whole blood'
+lab['name'] == 'Hemoglobin, whole blood'
 
-(lab[‘testdate’] >= lineoftherapy['startdate'] - @DAYS(28) ) AND (lab[‘testdate’] <= lineoftherapy['startdate'])
+(lab[‘testdate’] >= treatments['startdate'] - @DAYS(28) ) AND (lab[‘testdate’] <= treatments['startdate'])
 
-MIN(ABS(lab[‘testdate’] -lineoftherapy['startdate']))
+MIN(ABS(lab[‘testdate’] -treatments['startdate']))
 
 lab['testresultcleaned'] >= 9"
 "AST_v2
 #inclusion
 
-(lineoftherapy['linenumber']==2) AND (lineoftherapy['ismaintenancetherapy']==False)
+(treatments['linenumber']==2) AND (treatments['maintenance']==False)
 
-lab['labcomponent'] == 'Aspartate aminotransferase (AST or SGOT)' 
+lab['name'] == 'Aspartate aminotransferase (AST or SGOT)' 
 
-(lab[‘testdate’] >= lineoftherapy['startdate'] - @DAYS(28) ) AND (lab[‘testdate’] <= lineoftherapy['startdate'])
+(lab[‘testdate’] >= treatments['startdate'] - @DAYS(28) ) AND (lab[‘testdate’] <= treatments['startdate'])
 
-MIN(ABS(lab[‘testdate’] -lineoftherapy['startdate']))
+MIN(ABS(lab[‘testdate’] -treatments['startdate']))
 
 lab['testresultcleaned'] <= 1.5 * lab['maxnormcleaned']"
 "ALT_v2
 #inclusion
 
-(lineoftherapy['linenumber']==2) AND (lineoftherapy['ismaintenancetherapy']==False)
+(treatments['linenumber']==2) AND (treatments['maintenance']==False)
 
-lab['labcomponent'] == 'Alanine aminotransferase (ALT or SGPT)' 
+lab['name'] == 'Alanine aminotransferase (ALT or SGPT)' 
 
-(lab[‘testdate’] >= lineoftherapy['startdate'] - @DAYS(28) ) AND (lab[‘testdate’] <= lineoftherapy['startdate'])
+(lab[‘testdate’] >= treatments['startdate'] - @DAYS(28) ) AND (lab[‘testdate’] <= treatments['startdate'])
 
-MIN(ABS(lab[‘testdate’] -lineoftherapy['startdate']))
+MIN(ABS(lab[‘testdate’] -treatments['startdate']))
 
 lab['testresultcleaned'] <= 1.5 * lab['maxnormcleaned']"
 "Bilirubin_v2
 #inclusion
 
-(lineoftherapy['linenumber']==2) AND (lineoftherapy['ismaintenancetherapy']==False)
+(treatments['linenumber']==2) AND (treatments['maintenance']==False)
 
-lab['labcomponent'] == 'Bilirubin (Total), serum' 
+lab['name'] == 'Bilirubin (Total), serum' 
 
-(lab[‘testdate’] >= lineoftherapy['startdate'] - @DAYS(28) ) AND (lab[‘testdate’] <= lineoftherapy['startdate'])
+(lab[‘testdate’] >= treatments['startdate'] - @DAYS(28) ) AND (lab[‘testdate’] <= treatments['startdate'])
 
-MIN(ABS(lab[‘testdate’] -lineoftherapy['startdate']))
+MIN(ABS(lab[‘testdate’] -treatments['startdate']))
 
 lab['testresultcleaned'] <= lab['maxnormcleaned']"
 "Alkaline
 #inclusion
 
-(lineoftherapy['linenumber']==2) AND (lineoftherapy['ismaintenancetherapy']==False)
+(treatments['linenumber']==2) AND (treatments['maintenance']==False)
 
-(lab['labcomponent'] == 'Alkaline phosphatase (ALP)')
+(lab['name'] == 'Alkaline phosphatase (ALP)')
 
-(lab[‘testdate’] >= lineoftherapy['startdate'] - @DAYS(28) ) AND (lab[‘testdate’] <= lineoftherapy['startdate'])
+(lab[‘testdate’] >= treatments['startdate'] - @DAYS(28) ) AND (lab[‘testdate’] <= treatments['startdate'])
 
-MIN(ABS(lab[‘testdate’] -lineoftherapy['startdate']))
+MIN(ABS(lab[‘testdate’] -treatments['startdate']))
 
 (lab['testresultcleaned'] <= 2.5 * lab['maxnormcleaned'])"
 "Age
 #inclusion
-(lineoftherapy['linenumber']==2) AND (lineoftherapy['ismaintenancetherapy']==False)
+(treatments['linenumber']==2) AND (treatments['maintenance']==False)
 
-(lineoftherapy['startdate'] >= demographics['birthyear'] + @YEARS(18))"
+(treatments['startdate'] >= demographics['birthyear'] + @YEARS(18))"
 "CNS_Metastasis
 #exclusion
-(lineoftherapy['linenumber']==2) AND (lineoftherapy['ismaintenancetherapy']==False)
-diagnosis['diagnosisdate'] < lineoftherapy['startdate']
-(diagnosis['diagnosiscode'] == '198.4' OR diagnosis['diagnosiscode'] == 'C79.4')"
+(treatments['linenumber']==2) AND (treatments['maintenance']==False)
+diagnosis['diagnosisdate'] < treatments['startdate']
+(diagnosis['code'] == '198.4' OR diagnosis['code'] == 'C79.4')"
 "EGFR-mutation
 #exclusion
 
-(enhanced_advnsclcbiomarkers['biomarkername'] == 'EGFR') AND (enhanced_advnsclcbiomarkers['biomarkerstatus']=='Mutation positive')"
+(biomarkers['name'] == 'EGFR') AND (biomarkers['status']=='Mutation positive')"
 "ALK-translocation
 #exclusion
 
-(enhanced_advnsclcbiomarkers['biomarkername'] == 'ALK') AND (enhanced_advnsclcbiomarkers['biomarkerstatus']=='Rearrangement present')"
+(biomarkers['name'] == 'ALK') AND (biomarkers['status']=='Rearrangement present')"
 "PDL1-exclude-lpilimumab
 #exclusion
 
-(lineoftherapy['linenumber'] == 1) 
+(treatments['linenumber'] == 1) 
 
-(lineoftherapy['linename'] == 'Ipilimumab')"
+(treatments['linename'] == 'Ipilimumab')"
 "PDL1-exclude-Docetaxel
 #exclusion
 
-(lineoftherapy['linenumber'] == 1)
+(treatments['linenumber'] == 1)
 
-(lineoftherapy['linename'] == 'Docetaxel')"
+(treatments['linename'] == 'Docetaxel')"
