@@ -1,5 +1,15 @@
-# Tutorial for Trial PathFinder
+# Trial PathFinder
 
+Python library for Trial Pathfinder, an AI framework to systematically evaluate clinical trial eligibility criteria. 
+
+Functions provided by this package: encoding eligibility criteria, emulating existing trials under combinations of eligibility criteria, evaluating individual eligibiliey rule and suggesting data-driven criteria.
+
+Working paper. More background and information will be provided when the paper is ready.
+
+This repository contains tutorials and examples to use the library. See the python notebooks in the :code:`tutorials` folder.
+
+
+# Installation
 
 Option 1: Install through PyPI.
 ```shell
@@ -16,6 +26,49 @@ Option 3: Download repository and then install manually.
 cd TrialPathfinder/
 python setup.py install --user
 ```
+
+# Basic Usage
+
+Basic usage of this package:
+
+```python
+import TrialPathfinder as tp
+
+###### Encode Eligibility Criteria #####
+
+# Create cohort selection object
+cohort = cohort_selection(patientids, name_patientid='patientid')
+# Add the data tables needed in the eligibility criterion
+cohort.add_table(name_table1, table1)
+# Add individual eligibility criterion
+cohort.add_rule(rule1)
+
+###### Emulate Existing Trials ######
+
+# Given a combination of eligibility rules names_rules (an empty list [] indicates fully-relaxed criteria), process patients features for survival analysis (features is pandas Dataframe by default).
+data_survival = emulate_trials(cohort, features, names_rules)
+
+###### Survival Analysis ######
+
+HR, confidence_interval, p_value = survival_analysis(data_survival)
+
+###### Evalute Individual Criterion ######
+
+# Return the Shapley values for each rule in names_rules
+shapley_values = shapley_computation(cohort, features, drug_treatment, drug_control, names_rules)
+
+###### Criteria Relaxation - Data-driven Criteria ######
+
+# Select all the rules with Shapley value less than -0.01
+names_rules_relax = names_rules[shapley_values<-0.01]
+# Survival analysis on the data-driven criteria
+data_survival_relax = emulate_trials(cohort, features, drug_treatment, drug_control, names_rules_relax)
+HR, confidence_interval, p_value = survival_analysis(data_survival_relax)
+
+```
+
+# Detailed Documentation
+
 
 ## Load Data Tables
 
