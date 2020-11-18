@@ -1,6 +1,22 @@
 # Tutorial for Trial PathFinder
 
 
+Option 1: Install through PyPI.
+```shell
+pip install TrialPathfinder
+```
+    
+Option 2: Install through Github.
+```shell
+sudo pip install git+git://github.com/RuishanLiu/TrialPathfinder.git#egg=TrialPathfinder
+```
+
+Option 3: Download repository and then install manually.
+```shell
+cd TrialPathfinder/
+python setup.py install --user
+```
+
 ## Load Data Tables
 
 TrialPathfinder reads tables in Pandas dataframe structure (pd.dataframe) as default. The date information should be read as datetime (use function pd.to_datetime to convert if not).
