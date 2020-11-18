@@ -11,23 +11,18 @@ This repository contains tutorials and examples to use the library. See the pyth
 
 # Installation
 
-Option 1: Install through PyPI.
+The package TrialPathfinder is available on PyPI.
 ```shell
 pip install TrialPathfinder
 ```
     
-Option 2: Install through Github.
-```shell
-sudo pip install git+git://github.com/RuishanLiu/TrialPathfinder.git#egg=TrialPathfinder
-```
-
-Option 3: Download repository and then install manually.
+We also provide the option for manual installation: download this Github repository and run.
 ```shell
 cd TrialPathfinder/
 python setup.py install --user
 ```
 
-# Basic Usage
+# Quick Guidance
 
 Basic usage of this package:
 
@@ -67,7 +62,7 @@ HR, confidence_interval, p_value = survival_analysis(data_survival_relax)
 
 ```
 
-# Detailed Documentation
+# Documentation
 
 
 ## Load Data Tables
