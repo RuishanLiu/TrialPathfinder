@@ -1,12 +1,10 @@
 # Trial PathFinder
 
-Python library for Trial Pathfinder, an AI framework to systematically evaluate clinical trial eligibility criteria. 
+Python library for Trial Pathfinder, an AI framework to systematically evaluate clinical trial eligibility criteria. Functions provided by this package: encoding eligibility criteria, emulating existing trials under combinations of eligibility criteria, evaluating individual eligibiliey rule and suggesting data-driven criteria.
 
-Functions provided by this package: encoding eligibility criteria, emulating existing trials under combinations of eligibility criteria, evaluating individual eligibiliey rule and suggesting data-driven criteria.
+*Working paper. More background and information will be provided when the paper is ready.*
 
-Working paper. More background and information will be provided when the paper is ready.
-
-This repository contains tutorials and examples to use the library. See the python notebooks in the :code:`tutorials` folder.
+This repository contains tutorials and examples to use the library; see [tutorials/tutorial.ipynb](https://github.com/RuishanLiu/TrialPathfinder/blob/master/tutorial/tutorial.ipynb).
 
 
 # Installation
@@ -65,7 +63,10 @@ HR, confidence_interval, p_value = survival_analysis(data_survival_relax)
 # Documentation
 
 
-## Load Data Tables
+We highly recommend reading the [tutorial.ipynb](https://github.com/RuishanLiu/TrialPathfinder/blob/master/tutorial/tutorial.ipynb).
+
+
+## 1. Data Requirements
 
 TrialPathfinder reads tables in Pandas dataframe structure (pd.dataframe) as default. The date information should be read as datetime (use function pd.to_datetime to convert if not).
 
@@ -82,7 +83,7 @@ TrialPathfinder reads tables in Pandas dataframe structure (pd.dataframe) as def
 - Use the same Patient ID as the features table.
 
 
-## Stadards of encoding eligibility criteria
+## 2. Stadards of encoding eligibility criteria
 
 We built a computational workflow to encode the description of eligibility criteria in the protocols into standardized instructions which can be parsed by Trial Pathfinder for cohort selection use. 
 
@@ -125,3 +126,5 @@ To encode this criterion, we follow the procedure:
 MIN(ABS(lab['TestDate'] - features['StartDate'])) \
 lab['LabValue'] >= 100 
 ---
+
+## 3. Functions
