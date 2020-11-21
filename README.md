@@ -91,21 +91,18 @@ We built a computational workflow to encode the description of eligibility crite
 - Other operations: MIN, MAX, ABS.
 - Time is encoded as “DAYS(80)”: 80 days; “MONTHS(4)”: 4 months; “YEARS(3)”: 3 years.
 
----
 *Example: criteria "Age" - include patients more than 18 years old when they received the treatment.*
 
 > Age \
 \#Inclusion \
 features['StartDate'] >= demographics['BirthDate'] + @YEARS(18> 
 
----
 
 **2. Complex rule with hierachy.**
 - Each row is operated in sequential order
     - The tables are prepared before the last row. 
     - The patients are selected at the last row. 
 
----
 *Example: criteria "Platelets" - include patients whose platelet count ≥ 100 x 10^3/μL*. \
 To encode this criterion, we follow the procedure: 
 1. Prepare the lab table: 
@@ -119,4 +116,3 @@ To encode this criterion, we follow the procedure:
 (lab['TestDate'] >= features['StartDate'] - @DAYS(28) ) AND (lab['TestDate'] <= features['StartDate']) \
 MIN(ABS(lab['TestDate'] - features['StartDate'])) \
 lab['LabValue'] >= 100 
----
