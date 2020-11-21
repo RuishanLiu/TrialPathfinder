@@ -1,0 +1,111 @@
+"Age
+#inclusion
+(treatments['linenumber']==1) AND (treatments['maintenance']==False)
+
+(treatments['startdate'] >= demographics['birthyear'] + @YEARS(18))"
+"Histology_NonSquamous
+#inclusion
+(features['histology'] == 'Non-squamous cell carcinoma')"
+"Staging
+#inclusion
+(treatments['linenumber']==1) AND (treatments['maintenance']==False)
+
+(treatments['startdate'] >= demographics['birthyear'] + @YEARS(18))"
+"ECOG_v1
+#Inclusion
+(treatments['linenumber']==1) AND (treatments['maintenance']==False)
+
+(ecog[‘date’] >= treatments['startdate'] - @DAYS(30) ) AND (ecog[‘date’] <= treatments['startdate'] + @DAYS(7) )
+
+MIN(ABS(ecog[‘date’] - treatments['startdate'] ))
+
+(ecog['ecogvalue'] == 0) "
+"Neutrophils
+#inclusion
+
+(treatments['linenumber']==1) AND (treatments['maintenance']==False)
+
+(lab['name'] == 'Neutrophil count (absolute)') OR (lab['name'] == 'Granulocytes #') 
+
+(lab[‘date’] >= treatments['startdate'] - @DAYS(28) ) AND (lab[‘date’] <= treatments['startdate'])
+
+MIN(ABS(lab[‘date’] - treatments['startdate']))
+
+((lab['name'] == 'Neutrophil count (absolute)') AND (lab['value'] >= 1.5)) OR ((lab['name'] == 'Granulocytes #') AND (lab['value'] >= 0.0015)) "
+"Platelets
+#inclusion
+
+(treatments['linenumber']==1) AND (treatments['maintenance']==False)
+
+lab['name'] == 'Platelet count' 
+
+(lab[‘date’] >= treatments['startdate'] - @DAYS(28) ) AND (lab[‘date’] <= treatments['startdate'])
+
+MIN(ABS(lab[‘date’] - treatments['startdate']))
+
+lab['value'] >= 100"
+"Hemoglobin
+#inclusion
+
+(treatments['linenumber']==1) AND (treatments['maintenance']==False)
+
+lab['name'] == 'Hemoglobin, whole blood'
+
+(lab[‘date’] >= treatments['startdate'] - @DAYS(28) ) AND (lab[‘date’] <= treatments['startdate'])
+
+MIN(ABS(lab[‘date’] -treatments['startdate']))
+
+lab['value'] >= 9"
+"Bilirubin
+#inclusion
+
+(treatments['linenumber']==1) AND (treatments['maintenance']==False)
+
+lab['name'] == 'Bilirubin (Total), serum' 
+
+(lab[‘date’] >= treatments['startdate'] - @DAYS(28) ) AND (lab[‘date’] <= treatments['startdate'])
+
+MIN(ABS(lab[‘date’] -treatments['startdate']))
+
+lab['value'] <= 1.5 * lab['maxnorm']"
+"AST
+#inclusion
+
+(treatments['linenumber']==1) AND (treatments['maintenance']==False)
+
+lab['name'] == 'Aspartate aminotransferase (AST or SGOT)' 
+
+(lab[‘date’] >= treatments['startdate'] - @DAYS(28) ) AND (lab[‘date’] <= treatments['startdate'])
+
+MIN(ABS(lab[‘date’] -treatments['startdate']))
+
+lab['value'] <= 2.5 * lab['maxnorm']"
+"CNS_Metastasis
+#exclusion
+(treatments['linenumber']==1) AND (treatments['maintenance']==False)
+diagnosis['date'] < treatments['startdate']
+(diagnosis['code'] == '198.4' OR diagnosis['code'] == 'C79.4')"
+"blood_pressure_diastolic
+#exclusion
+
+(treatments['linenumber']==1) AND (treatments['maintenance']==False)
+
+vitals['name'] == 'Diastolic blood pressure' 
+
+(vitals[‘date’] >= treatments['startdate'] - @DAYS(28) ) AND (vitals[‘date’] <= treatments['startdate'])
+
+MIN(ABS(vitals[‘date’] - treatments['startdate']))
+
+vitals['value'] > 100"
+"blood_pressure_systolic
+#exclusion
+
+(treatments['linenumber']==1) AND (treatments['maintenance']==False)
+
+vitals['name'] == 'Systolic blood pressure' 
+
+(vitals[‘date’] >= treatments['startdate'] - @DAYS(28) ) AND (vitals[‘date’] <= treatments['startdate'])
+
+MIN(ABS(vitals[‘date’] - treatments['startdate']))
+
+vitals['value'] > 150"

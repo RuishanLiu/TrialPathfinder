@@ -22,7 +22,7 @@ python setup.py install --user
 
 # Quick Guidance
 
-Basic usage of this package:
+Here we give a quick guidance of using TrialPathfinder. More details see [tutorial.ipynb](https://github.com/RuishanLiu/TrialPathfinder/blob/master/tutorial/tutorial.ipynb).
 
 ```python
 import TrialPathfinder as tp
@@ -30,34 +30,28 @@ import TrialPathfinder as tp
 ###### Encode Eligibility Criteria #####
 
 # Create cohort selection object
-cohort = cohort_selection(patientids, name_patientid='patientid')
+cohort = tp.cohort_selection(patientids, name_PatientID='PatientID')
 # Add the data tables needed in the eligibility criterion
 cohort.add_table(name_table1, table1)
 # Add individual eligibility criterion
 cohort.add_rule(rule1)
 
-###### Emulate Existing Trials ######
+###### Emulate Existing Trials and Survival Analysis ######
 
-# Given a combination of eligibility rules names_rules (an empty list [] indicates fully-relaxed criteria), process patients features for survival analysis (features is pandas Dataframe by default).
-data_survival = emulate_trials(cohort, features, names_rules)
-
-###### Survival Analysis ######
-
-HR, confidence_interval, p_value = survival_analysis(data_survival)
+# Given a combination of eligibility rules names_rules (an empty list name_rules=[] indicates fully-relaxed criteria)).
+HR, CI, data_cox = tp.emulate_trials(cohort, features, drug_treatment, drug_control, name_rules)
 
 ###### Evalute Individual Criterion ######
 
 # Return the Shapley values for each rule in names_rules
-shapley_values = shapley_computation(cohort, features, drug_treatment, drug_control, names_rules)
+shapley_values = tp.shapley_computation(cohort, features, drug_treatment, drug_control, names_rules)
 
 ###### Criteria Relaxation - Data-driven Criteria ######
 
-# Select all the rules with Shapley value less than -0.01
-names_rules_relax = names_rules[shapley_values<-0.01]
+# Select all the rules with Shapley value less than 0.
+names_rules_relax = names_rules[shapley_values<0.]
 # Survival analysis on the data-driven criteria
-data_survival_relax = emulate_trials(cohort, features, drug_treatment, drug_control, names_rules_relax)
-HR, confidence_interval, p_value = survival_analysis(data_survival_relax)
-
+HR, CI, data_cox = tp.emulate_trials(cohort, features, drug_treatment, drug_control, name_rules_relax)
 ```
 
 # Documentation
@@ -126,5 +120,3 @@ To encode this criterion, we follow the procedure:
 MIN(ABS(lab['TestDate'] - features['StartDate'])) \
 lab['LabValue'] >= 100 
 ---
-
-## 3. Functions

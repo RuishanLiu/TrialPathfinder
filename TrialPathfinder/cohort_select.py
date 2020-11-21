@@ -456,7 +456,6 @@ class cohort_selection(object):
         Add rule. self.rules[rule] = select (patientids whether selected)
         If force=True, overwrite the rule in self.rules if the same name exists.
         '''
-#         try:
         result = self.execute_rule(rule, force=force)
         if result is not None:
             name, select, missing = result
@@ -466,9 +465,6 @@ class cohort_selection(object):
             return name, select, missing
         else:
             return None, None, None
-#         except:
-#             print('This line is not a rule.')
-#             return None, None
         
         
     def add_rules(self, rules, force=False):

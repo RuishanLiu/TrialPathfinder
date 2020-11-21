@@ -1,0 +1,118 @@
+"Age
+#inclusion
+(treatments['linenumber']==2) AND (treatments['maintenance']==False)
+
+(treatments['startdate'] >= demographics['birthyear'] + @YEARS(18))"
+"ECOG
+#Inclusion
+(treatments['linenumber']==2) AND (treatments['maintenance']==False)
+
+(ecog[‘date’] >= treatments['startdate'] - @DAYS(30) ) AND (ecog[‘date’] <= treatments['startdate'] + @DAYS(7) )
+
+MIN(ABS(ecog[‘date’] - treatments['startdate']))
+
+(ecog['ecogvalue'] == 0) OR (ecog['ecogvalue'] == 1)"
+"Neutrophils
+#inclusion
+
+(treatments['linenumber']==2) AND (treatments['maintenance']==False)
+
+(lab['name'] == 'Neutrophil count (absolute)') OR (lab['name'] == 'Granulocytes #') 
+
+(lab[‘date’] >= treatments['startdate'] - @DAYS(28) ) AND (lab[‘date’] <= treatments['startdate'])
+
+MIN(ABS(lab[‘date’] - treatments['startdate']))
+
+((lab['name'] == 'Neutrophil count (absolute)') AND (lab['value'] >= 1.5)) OR ((lab['name'] == 'Granulocytes #') AND (lab['value'] >= 0.0015)) "
+"Platelets
+#inclusion
+
+(treatments['linenumber']==2) AND (treatments['maintenance']==False)
+
+lab['name'] == 'Platelet count' 
+
+(lab[‘date’] >= treatments['startdate'] - @DAYS(28) ) AND (lab[‘date’] <= treatments['startdate'])
+
+MIN(ABS(lab[‘date’] - treatments['startdate']))
+
+lab['value'] >= 100"
+"Hemoglobin
+#inclusion
+
+(treatments['linenumber']==2) AND (treatments['maintenance']==False)
+
+lab['name'] == 'Hemoglobin, whole blood'
+
+(lab[‘date’] >= treatments['startdate'] - @DAYS(28) ) AND (lab[‘date’] <= treatments['startdate'])
+
+MIN(ABS(lab[‘date’] -treatments['startdate']))
+
+lab['value'] >= 9"
+"Bilirubin_v2
+#inclusion
+
+(treatments['linenumber']==2) AND (treatments['maintenance']==False)
+
+lab['name'] == 'Bilirubin (Total), serum' 
+
+(lab[‘date’] >= treatments['startdate'] - @DAYS(28) ) AND (lab[‘date’] <= treatments['startdate'])
+
+MIN(ABS(lab[‘date’] -treatments['startdate']))
+
+lab['value'] <= lab['maxnorm']"
+"AST_v2
+#inclusion
+
+(treatments['linenumber']==2) AND (treatments['maintenance']==False)
+
+lab['name'] == 'Aspartate aminotransferase (AST or SGOT)' 
+
+(lab[‘date’] >= treatments['startdate'] - @DAYS(28) ) AND (lab[‘date’] <= treatments['startdate'])
+
+MIN(ABS(lab[‘date’] -treatments['startdate']))
+
+lab['value'] <= 1.5 * lab['maxnorm']"
+"ALT_v2
+#inclusion
+
+(treatments['linenumber']==2) AND (treatments['maintenance']==False)
+
+lab['name'] == 'Alanine aminotransferase (ALT or SGPT)' 
+
+(lab[‘date’] >= treatments['startdate'] - @DAYS(28) ) AND (lab[‘date’] <= treatments['startdate'])
+
+MIN(ABS(lab[‘date’] -treatments['startdate']))
+
+lab['value'] <= 1.5 * lab['maxnorm']"
+"Alkaline
+#inclusion
+
+(treatments['linenumber']==2) AND (treatments['maintenance']==False)
+
+(lab['name'] == 'Alkaline phosphatase (ALP)')
+
+(lab[‘date’] >= treatments['startdate'] - @DAYS(28) ) AND (lab[‘date’] <= treatments['startdate'])
+
+MIN(ABS(lab[‘date’] -treatments['startdate']))
+
+(lab['value'] <= 2.5 * lab['maxnorm'])"
+"PDL1-exclude-Docetaxel
+#exclusion
+
+(treatments['linenumber'] == 1)
+
+(treatments['linename'] == 'Docetaxel')"
+"PDL1-exclude-lpilimumab
+#exclusion
+
+(treatments['linenumber'] == 1) 
+
+(treatments['linename'] == 'Ipilimumab')"
+"CNS_Metastasis
+#exclusion
+(treatments['linenumber']==2) AND (treatments['maintenance']==False)
+diagnosis['date'] < treatments['startdate']
+(diagnosis['code'] == '198.4' OR diagnosis['code'] == 'C79.4')"
+"CYP3A4
+#exclusion
+(medication['name'] == 'ketoconazole') OR (medication['name'] == 'itraconazole') OR (medication['name'] == 'clarithromycin') OR (medication['name'] == 'atazanvir') OR (medication['name'] == 'indinavir') OR (medication['name'] == 'nefazodone') OR (medication['name'] == 'nelfinavir') OR (medication['name'] == 'ritonavir') OR (medication['name'] == 'saquinavir') OR (medication['name'] == 'teithromycin') OR (medication['name'] == 'voriconazole')"
