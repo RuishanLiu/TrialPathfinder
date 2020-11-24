@@ -1,16 +1,16 @@
 # Tutorial for TrialPathFinder
 
 
-[tutorial.ipynb](https://github.com/RuishanLiu/TrialPathfinder/blob/master/tutorial/tutorial.ipynb) provides a detailed tutorial and example to use the library TrialPathFinder.
+[tutorial/tutorial.ipynb](https://github.com/RuishanLiu/TrialPathfinder/blob/master/tutorial/tutorial.ipynb) provides a detailed tutorial and example to use the library TrialPathFinder.
 
 ### Pipeline
 
 - Explaination about data requirement
 - Stadards of encoding eligibility criteria and examples
 - How to use TrialPathfinder (*tf*)
-    - Patient selection by *tp.cohort_selection*
-    - Survival analysis by *tp.emulate_trials*
-    - Shapley computation by *tp.shapley_computation*
+    - Patient selection by *tp.cohort_selection()*
+    - Survival analysis by *tp.emulate_trials()*
+    - Shapley computation by *tp.shapley_computation()*
 
 
 ### Synthetic Data
