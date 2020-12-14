@@ -7,7 +7,7 @@
 
 - Explaination about data requirement
 - Stadards of encoding eligibility criteria and examples
-- How to use TrialPathfinder (*tf*) with application to synthetic data
+- How to use TrialPathfinder (*tp*) with application to synthetic data
     - Patient selection by *tp.cohort_selection()*
     - Survival analysis by *tp.emulate_trials()*
     - Shapley computation by *tp.shapley_computation()*
