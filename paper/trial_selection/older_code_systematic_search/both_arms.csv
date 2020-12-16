@@ -1,0 +1,227 @@
+,arm1,arm2
+37,docetaxel,chinese traditional medicine xh1
+41,at13387,crizotinib
+49,zd1839,docetaxel
+67,carboplatin/paclitaxel/medi-575,carboplatin/paclitaxel
+88,bio-11006 plus standard of care,standard of care
+94,azd3759,azd9291
+120,sym004,nivolumab
+163,azd6244,pemetrexed
+173,docetaxel,azd4547
+200,th-302 combination with pemetrexed,matched placebo in combination with pemetrexed
+203,inc280,egf816
+205,ipi 504 plus docetaxel,placebo plus docetaxel
+215,jnj-61186372,lazertinib
+229,erlotinib,pf-00299804
+244,inc280 single agent,erlotinib
+250,sndx-275,erlotinib
+254,ds-1205c,osimertinib
+269,cs1001 monoclonal antibody,cs1001 placebo
+294,lyc-55716,pembrolizumab
+318,tqb2450,anlotinib
+339,ds-1205c,gefitinib
+340,m7824,pembrolizumab
+354,ldk378,auy922
+363,cdx-1401,mpdl3280a
+369,alt-803,nivolumab
+371,mil60,bevacizumab
+372,erlotinib,bgb324
+375,cc-5013,pemetrexed
+380,x-396 (ensartinib),crizotinib
+382,gsk1572932a antigen-specific cancer immunotherapeutic,placebo control
+383,ln-145,durvalumab
+388,acy-241,nivolumab
+389,s-588410,placebo
+410,docetaxel,tak-117
+431,imprime pgg,mk-3475
+441,1-year treatment with icotinib,2-year treatment with icotinib
+445,ogx-427,placebo
+464,lbh 589,pemetrexed
+472,ly2603618,pemetrexed
+473,"gemcitabine, docetaxel, cpt-11,cisplatin",gemcitabine/cisplatin
+496,at-101 and docetaxel,placebo and docetaxel
+519,sar408701,docetaxel
+551,s1 capsule,vinorelbine
+578,hs110 vaccine,placebo
+581,ombrabulin (ave8062),placebo
+584,inc280,erlotinib hydrochloride
+600,docetaxel,ly2181308
+638,cbp501 + cisplatin + pemetrexed,cisplatin + pemetrexed
+645,pf-02341066,pf-00299804
+668,cs1001 monoclonal antibody,cs1001 placebo
+683,gsk1120212,docetaxel
+729,sh t00268c,ptk787/ zk 222584
+747,spi-1620 & docetaxel,docetaxel
+748,cs-7017,erlotinib
+750,rg1507,erlotinib [tarceva]
+777,"cc-223, erlotinib","cc-223, oral azacitidine"
+782,arq 197 plus erlotinib,"pemetrexed, docetaxel or gemcitabine"
+795,recombinant dna- pvax/l523s,recombinant adenovirus- ad/l523s
+798,gsk 249553 vaccine,placebo
+799,bcd-100,docetaxel
+849,gv1001,normal saline
+852,pf-06463922,crizotinib
+903,docetaxel (taxotere®),zd1839
+910,avelumab (msb0010718c),axitinib (ag-013736)
+951,mgcd265+erlotinib,mgcd265+docetaxel
+958,ly01008,bevacizumab
+1011,cg8123,cyclophosphamide
+1012,paclitaxel and carboplatin,nov-002 injection in combination with carboplatin vs. paclitaxel and carboplatin
+1073,pt-112,docetaxel
+1080,"cisplatin, dexamethasone,vitamin b12, folic acid","cisplatin, gemcitabine"
+1092,"concomitant radiochemotherapy - radiotherapy 66 gy, cisplatin, and docetaxel","concomitant chemoradiotherapy - radiotherapy 66 gy, cisplatin, and docetaxel"
+1163,bi 836880,bi 754091
+1173,bgb324,docetaxel
+1185,pegylated recombinant human hyaluronidase ph20,docetaxel
+1191,ipi-504,everolimus
+1196,midazolam,tak-788
+1211,pi-88,docetaxel
+1228,bryostatin 1,paclitaxel
+1235,pf-00299804,placebo
+1243,ep-2101,incomplete freund's adjuvant
+1271,tg4010,placebo
+1276,adxs-503,pembrolizumab
+1341,tlk286 (telcyta) hcl for injection,gefitinib (iressa)
+1360,pemetrexed,pemetrexed + pf-3512676
+1405,ipilimumab,shr-1210
+1406,xl184,erlotinib
+1423,rad001,erlotinib
+1433,itraconazole 200 mg,chemotherapy
+1517,trastuzumab deruxtecan (ds-8201a),pembrolizumab
+1524,cpg 7909,chemotherapy
+1535,"tarceva (trademark) (erlotinib hcl, osi-774)",combination carboplatin and paclitaxel
+1569,carboplatin and pemetrexed with bevacizumab 7.5 mg/kg,carboplatin and pemetrexed with bevacizumab 15 mg/kg
+1645,gtx-024,placebo
+1648,gtx-024,placebo
+1693,mva-muc1-il2,1st line chemotherapy
+1719,regn4659,cemiplimab
+1761,irx4204,erlotinib
+1780,medi4736,placebo
+1784,intravenous injection bgb-a317,intravenous injection docetaxel
+1789,mm-121,erlotinib
+1791,recombinant human apo-2 ligand for injection,placebo
+1806,rociletinib,mpdl3280a
+1814,mk-3475,gemcitabine
+1824,ly3023414,necitumumab
+1825,mek162,erlotinib
+1841,zd6474 (vandetanib),faslodex (fulvestrant)
+1883,bibw 2992,simvastatin
+1884,arq 197 and erlotinib,placebo and erlotinib
+1894,chr-2797 (tosedostat),erlotinib
+1914,erlotinib,pf-02341066
+1936,open-label azd2014,paclitaxel
+1939,palbociclib,pd-0325901
+1957,famitinib po,hs-10296 po
+1995,erlotinib 100mg qd,gefitinib 250mg qd
+2003,tas-114,s-1
+2033,monosialoganglioside(gm1),normal saline
+2042,celecoxib,zd1839
+2063,kml-001,cisplatin
+2070,"mk0683, vorinostat, suberoylanilide hydroxamic acid (saha)","duration of treatment - during each treatment cycle, treatment is administered twice daily for 14 days, followed by 7 days of rest for a total of 10 cycles"
+2079,egf816,gefitinib
+2102,av-299 + gefitinib,gefitinib
+2120,gr-md-02,pembrolizumab
+2126,mkc-1,pemetrexed
+2138,rad001,docetaxel
+2139,pf-3512676 + erlotinib,erlotinib
+2159,pf-3512676 + paclitaxel + carboplatin,paclitaxel + carboplatin
+2164,s-1 plus gefitinib,gefitinib
+2175,chemotherapy,cross-over to azd9291
+2203,bibf 1120,pemetrexed
+2206,mk-3475,docetaxel
+2210,pembrolizumab 2 mg/kg,docetaxel 75 mg/m^2
+2219,bi 2536,pemetrexed
+2239,cs-7017,erlotinib
+2243,arm a: pemetrexed cisplatin,"arm b pemetrexed, cisplatin and mk-0646"
+2244,lazertinib,jnj-61186372
+2252,docetaxel,pi-88
+2253,gefitinib,medi4736
+2274,cetuximab,bibw 2992
+2277,shr1020 plus docetaxel,placebo plus docetaxel
+2290,bi 836845,afatinib
+2300,ly2875358,erlotinib
+2304,kd019,erlotinib
+2308,abr-217620,docetaxel
+2320,talabostat (pt-100) tablets,docetaxel
+2333,placebo,bibw 2992
+2353,placebo plus docetaxel,bibf 1120 plus docetaxel
+2370,investigator´s choice of chemotherapy,bibw 2992
+2417,obatoclax mesylate 250 ml,docetaxel
+2422,debio 1143,avelumab
+2441,bibw 2992,sirolimus (rapamycin)
+2470,pdr001,panobinostat
+2479,niraparib,pd-1 inhibitor
+2509,asp8273 capsules,asp8273 capsules a
+2529,gsk3377794,pembrolizumab
+2530,bi 695502,avastin
+2555,docetaxel,npi-2358 + docetaxel
+2566,bibf 1120,vinorelbine
+2575,n-803 + pembrolizumab,pembrolizumab
+2578,sgn-15,docetaxel
+2591,tg4010,nivolumab
+2593,osimertinib,[11c]osimertinib
+2648,endostar/pd-1 inhibitor,endostar
+2691,azd9150,medi4736
+2725,hs-10296,gefitinib
+2730,ct053ptsa,gefitinib
+2754,pembrolizumab,cva21
+2809,bms-690514,erlotinib
+2812,dacomitinib (pf-00299804),gefitinib
+2837,tq-b3139,crizotinib
+2843,ceritinib (ldk378),nivolumab
+2853,cyclophosphamide and fludarabine,anti-ny-eso-1 tcr transduced t cells
+2854,gb226,fruquintinib
+2860,vx-001,placebo
+2891,apg-1252,osimertinib mesylate tablets
+2903,gdc-0941,erlotinib hcl
+2915,cobimetinib,gdc-0994
+2953,shr-1210,apatinib
+2954,mm-121,docetaxel
+2956,"aczone (dapsone) gel, 5%",vehicle control
+2970,ald518,infusion of 0.9% saline without ald518
+2986,cb-839,nivolumab
+3027,tavocept(bnp7787) in combination with cisplatin and either docetaxel or paclitaxel,placebo in combination with cisplatin and docetaxel or paclitaxel
+3053,isatuximab sar650984,cemiplimab regn2810
+3058,ct-16,avastin
+3064,egf816,trametinib
+3073,efg816,erlotinib or gefitinib
+3089,apx005m,nivolumab
+3091,docetaxel,px-866
+3108,tqb2450,anlotinib
+3112,s-1 therapy,pemetrexed therapy
+3118,paclitaxel + carboplatin + bevacizumab,carboplatin + paclitaxel + bevacizumab + pf-3512676
+3123,sotatercept 15 mg,sotatercept 30 mg
+3144,docetaxel,pd1-t cells
+3146,carotuximab (trc105),opdivo
+3150,bi 754111,bi 754091
+3155,gemcitabine+cisplatin,bibw 2992
+3175,pemetrexed,bi 6727
+3192,her-2/neu peptide vaccine,sargramostim
+3193,bay86-9596,fludeoxyglucose (18f)-iba
+3235,6-month icotinib,12-month icotinib
+3240,trastuzumab,grn 1005
+3275,shr-1210,bp102
+3287,apatinib,shr-1210
+3300,rq-00000007,gemcitabine
+3303,xl647,xl147
+3318,shr-1210,carboplatin and paclitaxel-albumin
+3333,shr-1210,the placebo
+3360,v941,pembrolizumab
+3377,axl1717,docetaxel
+3383,crlx101,olaparib
+3396,azd9291,medi4736
+3411,ct-2103/carboplatin,paclitaxel/carboplatin
+3448,bym338 active drug,placebo
+3454,docetaxel,gsk3359609 (icos agonist)
+3491,azd1480 daily,azd1480 bid
+3494,vegfr/pdgfr dual kinase inhibitor x-82,nivolumab
+3547,ly2523355,pegfilgrastim
+3550,dky709,pdr001
+3586,"standard platinum-based concurrent chemoradiotherapy, followed by consolidation with pdr001","pdr001 concurrent with standard platinum-based chemoradiation, followed by consolidation with pdr001"
+3597,shr-1210,shr6390
+3603,vt-122 low dose,vt-122 high dose
+3606,careseng 1370,placebo
+3625,nktr-214,pembrolizumab
+3639,cm-24 (mk-6018),pembrolizumab (mk-3475)
+3652,ly3381916,ly3300054
+3674,ramucirumab,medi4736

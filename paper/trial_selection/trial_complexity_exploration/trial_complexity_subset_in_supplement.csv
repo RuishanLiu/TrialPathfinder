@@ -1,0 +1,570 @@
+,STUDY_NUMBER,STUDY_FULL_TITLE,STUDY_SHORT_TITLE,STUDY_ACRONIM,STUDY_STATUS,DB_LOCK_FLAG,STUDY_PHASE_GROUP,STUDY_PHASE,STUDY_TYPE,THERAPEUTIC_AREA_REP,THERAPEUTIC_AREA,DTA,INDICATION,INDICATION_REP,DISTRIBUTION,COMPARISON,RANDOMIZATION,INTERVENTIONAL_STUDY_MODEL,BLINDING,EXECUTING_PARTY,OUTSOURCED,TARGET_NUM_COUNTRIES,OBJECTIVE,STUDY_KEYWORDS,INCLUSION_CRITERIA,NUM_OF_DRAGS,DRUG_PRIMARY_NAME,DRUG_NAMES,THERAPEUTIC_CLASSES,ACTUAL_ENROLLED_STUDY,PLANNED_ENROLLMENT,WITHDRAWAL_RATIO,SCREENING_RATE,ENROLLMENT_RATE,SCREEN_FAIL_RATIO,NUM_ALL_AE,NUM_AE,NUM_SAE,SCREENING_SUCCESS_RATIO,SCREEN_FAIL_DECLINED_TO_PARTICIPATE,SCREEN_FAIL_INCLUSION,SCREEN_FAIL_EXCLUSION,WITHDRAWN_ADVERSE_EVENTS,WITHDRAWN_SUBJECTIVE,WITHDRAWN_NON_COMPLIANCE,WITHDRAWN_PROTOCOL_DEVIATIONS,WITHDRAWN_SAFETY,WITHDRAWN_OTHER_PRE_SPECIFIED,WITHDRAWN_OTHER,WITHDRAWN_ADVERSE_EVENTS_RATIO,WITHDRAWN_SUBJECTIVE_RATIO,WITHDRAWN_NON_COMPLIANCE_RATIO,WITHDRAWN_PROTOCOL_DEVIATIONS_RATIO,WITHDRAWN_SAFETY_RATIO,WITHDRAWN_OTHER_PRE_SPECIFIED_RATIO,WITHDRAWN_OTHER_RATIO
+67,GO40241,"A PHASE III, DOUBLE-BLINDED, MULTICENTER, RANDOMIZED STUDY EVALUATING THE EFFICACY AND SAFETY OF NEOADJUVANT TREATMENT WITH ATEZOLIZUMAB OR PLACEBO IN COMBINATION WITH PLATINUM-BASED CHEMOTHERAPY IN PATIENTS WITH RESECTABLE STAGE II, IIIA, OR SELECT IIIB NON−SMALL CELL LUNG CANCER",Neoadjuvant NSCLC,,Active,0,Phase 3,Phase III,Interventional,ONC,ONC - ONCOLOGY,ONC,Non-Small Cell Lung Cancer,NSCLC,Multi-Country Study,PLACEBO CONTROLLED,Randomized,Yes,Double Blind,PDG,No,28,"To evaluate the efficacy and safety of neoadjuvant treatment with atezolizumab (MPDL3280A) or placebo in combination with platinum-based chemotherapy in patients with resectable Stage II, IIIA, or select IIIB non-small cell lung cancer (NSCLC) followed by open-label adjuvant atezolizumab or best supportive care and monitoring.",double blind/blinded;efficacy;multiple arm;placebo control;randomized;safety,"Eastern Cooperative Oncology Group (ECOG) performance status 0 or 1
+Histologically or cytologically confirmed, resectable Stage II, IIIA, or Select IIIB (T3N2 only) NSCLC of squamous or non-squamous histology. Staging should be based on the 8th edition of the AJCC/UICC staging system
+Evaluation by an attending thoracic surgeon to confirm eligibility for an R0 resection with curative intent
+Adequate pulmonary and cardiac function to undergo surgical resection
+Measurable disease as defined by RECIST v1.1
+Adequate hematologic and end organ function
+Negative HIV test at screening
+Negative for active HBV and HCV at screening
+
+Age > or = 18 years
+Ability to comply with the study protocol, in the investigator’s judgment
+Staging should be based on the 8th edition of the American Joint Committee on Cancer / Union Internationale Contre le Cancer NSCLC staging system
+- T4 primary NSCLC will be allowed only on the basis of size (tumors > 7 cm).Invasion of the diaphragm, mediastinum, heart, great vessels, trachea, recurrent laryngeal nerve, esophagus, vertebral body, carina, and separate tumor nodules in a different ipsilateral lobe is not permitted
+- Patients with mixed NSCLC histology or NSCLC not otherwise specified are eligible
+- Patients may be enrolled based on clinical stage, but mandatory pre-operative documentation of N2 nodal involvement by invasive mediastinal staging is required for N2 PET positive nodes. Pre-operative staging of levels 5/6 nodes is optional.
+Solid or subsolid appearance of NSCLC on CT scan with no appearance of purely ground-glass opacity (GGO) for subsolid lesions, the tumor size should be measured based on solid component only, exclusive of the GGO component
+Evaluation by the operating attending surgeon and involved medical oncologist prior to study enrollment to verify study eligibility for R0 resection with curative intent
+Pulmonary function tests within 6 months of planned resection and repeated at screening, if clinically indicated, including lung volumes, spirometry, and a diffusion capacity
+Adequate cardiac function, to be eligible for surgical resection with curative intent
+If clinically indicated, patients with underlying ischemic, valvular, or other significant heart diseases should be evaluated preoperatively by a cardiologist
+Measurable disease as assessed by the investigator per RECIST v1.1
+Eligibility to receive a platinum-based chemotherapy regimen
+Availability of a representative pretreatment tumor specimen for exploratory biomarker research is strongly encouraged
+Eastern Cooperative Oncology Group Performance Status of 0 or 1
+Adequate hematologic and end-organ function, defined by the following laboratory test results, obtained within 14 days prior to initiation of study treatment:
+- Absolute neutrophil count > or = 1.5 × 109/L (1500/µL) without granulocyte colony-stimulating factor support
+- Lymphocyte count > or = 0.5 × 109/L (500/µL)
+- Platelet count >= 100 × 109/L (100,000/µL) without transfusion 
+- Hemoglobin > or = 90 g/L (9.0 g/dL)
+- Patients may be transfused to meet this criterion.
+- Aspartate transaminase Test, Alanine aminotransferase Test, and Alkaline phosphatase level < + 2.5 × upper limit of normal (ULN)
+- Serum bilirubin < or = 1.5 × ULN with the following exception:
+- Patients with known Gilbert disease: serum bilirubin level < or = 3 × ULN
+- Creatinine clearance > or = 45 mL/min
+- For patients intended to receive cisplatin: creatinine clearance >= 60 mL/min 
+- Serum albumin > or = 25 g/L (2.5 g/dL)
+For patients not receiving therapeutic anticoagulation: INR or aPTT <=1.5 × ULN
+For patients receiving therapeutic anticoagulation: stable anticoagulant regimen
+The HBV DNA test will be performed only for patients who have a positive total HBcAb test.
+Negative hepatitis C virus (HCV) antibody test at screening, or positive HCV antibody test followed by negative HCV RNA test at screening 
+The HCV RNA test will be performed only for patients who have a positive HCV antibody test.
+Fo",6,atezolizumab,atezolizumab; carboplatin (iv); cisplatin; gemcitabine hydrochloride; nab-paclitaxel (IV); pemetrexed disodium,"Antiarthritic, other;Anticancer, antimetabolite;Antipsoriasis; Anticancer, alkylating; Anticancer, alkylating; Anticancer, antimetabolite;Antiviral, other; Anticancer, immunological;Monoclonal antibody, human; Anticancer, other;Cardiovascular;Radio/chemosensitizer;Reformulation, optimized, nanoparticles",371.0,302,0.1,,,0.47,12.18,11.52,0.66,0.53,0.5,0.5,0.0,0.0,11.0,0.0,2.0,0.0,0.0,23.0,0.0,0.03,0.0,0.01,0.0,0.0,0.06
+145,YO29233,"A PHASE I, OPEN-LABEL STUDY TO ASSESS THE PHARMACOKINETICS,EFFICACY AND SAFETY OF ATEZOLIZUMAB ADMINISTERED INTRAVENOUSLY AS A SINGLE AGENT TO CHINESE PATIENTS WITH LOCALLY ADVANCED OR METASTATIC SOLID TUMORS",China PK  Study,,Active,0,Phase 1,Phase Ib,Interventional,ONC,ONC - ONCOLOGY & HEMATOLOGY,ONC,Malignant Neoplasm Without Specification Of Site,NSCLC,Multi-Country Study,NON-CONTROLLED,,Yes,Open Label,PDY,No,2,"To evaluate the pharmacokinetics, safety, and preliminary anti-tumor activity of atezolizumab as monotherapy in Chinese participants with locally advanced or metastatic gastric cancer, nasopharyngeal cancer, esophageal cancer, and hepatocellular carcinoma (HCC) that are refractory to standard therapeutic modalities and for whom no further standard therapy is available or who have refused standard therapy
+To evaluate the safety and preliminary anti-tumor activity of atezolizumab in combination with gemcitabine and cisplatin in Chinese participants with Stage IV, treatment-naive non-small cell lung cancer (NSCLC).",efficacy;multiple arm;open label;pharmacodynamics;pharmacokinetics;safety,"Histologically documented, incurable or metastatic solid tumor that is advanced (non-resectable) or recurrent and progressing since the last the anti-tumor therapy and for which no recognized standard curative therapy exists or who have refused the standard therapy
+Adequate hematologic and end organ function
+Measurable disease per Response Evaluation Criteria in Solid Tumors Version 1.1 (RECIST v1.1) or modified Response Evaluation Criteria in Solid Tumors (mRECIST)
+Eastern Cooperative Oncology Group (ECOG) Performance Status of 0 or 1
+Women who are not postmenopausal (greater than or equal to [>/=] 12 months of non-therapy-induced amenorrhea) or surgically sterile must have a negative serum pregnancy test result within 14 days prior to initiation of study treatment
+
+As per China FDA:
+Signed informed consent
+Age greater than or equal to 18 years old
+Prior to the study, patients must provide paraffin block representative tumor specimens (preferred) for at least 15 unstained slides or related pathological report.
+Need to screen hepatocellular carcinoma patients for a new liver lesions by thick needle biopsy
+Need to screen nasopharyngeal carcinoma patients by collecting of biopsy tissue samples
+Laboratory tests for adequate hematologic and organ function need to be completed within 14 days prior to initiation of study treatment 
+ANC is greater than or equal to 1500/uL
+WBC counts greater than 2500/uL and less than 15000/uL
+Lymphocyte counts greater than or equal to 500/uL
+Platelet count greater than or equal to 100000/uL (non liver cancer patients, patients with liver cancer, please refer to the following article 44)
+Total bilirubin is less than or equal to 1.5 times the upper limit of the normal value, except under some cases of exceptions;
+Patients with known Gilbert disease and the upper limit of serum bilirubin levels of less than or equal to the normal value may be selected;
+AST and ALT is less than or equal to 3 times the upper limit of the normal value, except under some cases of exceptions;
+Patients with liver metastases: AST and / or ALT less than or equal to 5 times the upper limit of the normal value.
+ALP is less than or equal to 2.5 times the upper limit of the normal value, except under some cases of exceptions
+The upper limit of serum creatinine is less than or equal to 1.5 times the normal value, the creatinine clearance rate is greater than or equal to 50mL/min, according to Cockcroft-Gault calculated glomerular filtration rate;
+Measurable disease according to RECIST V1.1 or mRECIST exist.
+ECOG performance status score of 1 or 1.
+International normalized ratio (INR) and activated partial thromboplastin time (aPTT) is less than or equal to 1.5 times the upper limit of normal.
+The above content is only suitable for patients who did not receive anticoagulation therapy; patients receiving anticoagulant therapy should reach a stable dose. (non HCC patients, patients with liver cancer  see the following article Exclusion criteria Article 44)
+Premenopausal (non-therapy-induced amenorrhea (greater than or equal to 12 months) or surgically sterile must have negative serum pregnancy test within 14 days prior to initiation of study treatment;
+Women of childbearing potential must agree to remain abstinent or use contraceptive methods during study period and 90 days after the last dose administration
+If the female patient has not yet reached menopause but postmenopausal status (menopause than or equal to 12 consecutive months, except for postmenopausal no other reason), and is not neutered (removal of the ovaries and / or uterus), it is considered such women have fertility.
+Examples of contraceptive failure rates (less than 1% per year) include bilateral fallopian tube ligation and male sterilization, the proper use of intrauterine device (IUD), copper intrauterine device (IUD) and
+hormonal contraceptives can inhibit ovulation.
+Patients were evaluated for abstinence during the study period. Periodic abstinence (such as the proj",3,atezolizumab,atezolizumab; cisplatin; gemcitabine hydrochloride,"Anticancer, alkylating; Anticancer, antimetabolite;Antiviral, other; Anticancer, immunological;Monoclonal antibody, human",120.0,98,0.73,13.1,4.1,0.69,11.81,11.17,0.64,0.31,0.0,0.57,0.43,0.0,2.0,0.0,0.0,0.0,0.0,85.0,0.0,0.02,0.0,0.0,0.0,0.0,0.71
+192,MO28113,"A TWO-PART, RANDOMIZED PHASE III, DOUBLE-BLIND, MULTICENTER TRIAL ASSESSING THE EFFICACY AND SAFETY OF PERTUZUMAB IN COMBINATION WITH STANDARD CHEMOTHERAPY VS. PLACEBO PLUS STANDARD CHEMOTHERAPY IN WOMEN WITH RECURRENT PLATINUM-RESISTANT EPITHELIAL OVARIAN CANCER AND LOW HER3 mRNA EXPRESSION",Pertuzumab + chemo+: platinum resistant women,PENELOPE,Clinical Closure,1,Phase 3,Phase III,Interventional,ONC,ONC - ONCOLOGY & HEMATOLOGY,ONC,Ovarian Cancer,mBC,Multi-Country Study,PLACEBO CONTROLLED,Randomized,Yes,Double Blind,PDMA,No,12,"To evaluate the safety, tolerability and efficacy of pertuzumab in combination with standard chemotherapy in women with recurrent platinum-resistant epithelian ovarian cancer.
+To determine the tolerance of pertuzumab in combination with topotecan or pegylated liposomal doxorubicin (PLD)
+To determine the safety and tolerability of pertuzumab in combination with either topotecan or paclitaxel.
+To determine if pertuzumab plus chemotherapy is superior to placebo plus chemotherapy as measured by PFS.
+To evaluate chemotherapy (CT) with or without pertuzumab (P) for platinum-resistant ovarian cancer.",active comparator;double blind/blinded;efficacy;multiple arm;pharmacokinetics;placebo control;randomized;safety;superiority,"Signed written informed consent approved by the relevant IEC.
+Female patients aged 18 years or older.
+Low HER3 mRNA expression levels (concentration ratio equal or lower than 2.81, as assessed by qRT-PCR on a cobas z480 instrument).
+Histologically or cytologically confirmed and documented epithelial ovarian cancer that is platinum-resistant or refractory (defined as progression within 6 months from completion of a minimum of 4 platinum therapy cycles or progression during platinum therapy).
+At least one measurable lesion and/or non measurable disease according to RECIST version 1.1, or cancer antigen-125 (CA-125) assessable disease according to Gynecologic Center Intergroup (GCIG) criteria. 
+The following histological types are eligible:
+Adenocarcinoma not otherwise specified.
+Clear cell adenocarcinoma.
+Endometrioid adenocarcinoma.
+Malignant Brenner's tumor.
+Mixed epithelial carcinoma including malignant mixed Müllerian
+tumors.
+Mucinous adenocarcinoma.
+Serous adenocarcinoma.
+Transitional cell carcinoma.
+Undifferentiated carcinoma.
+Eastern Cooperative Oncology Group (EOCD) performance status 0 to 2
+Left ventricular ejection fraction (LVEF) greater tha or equal to 50%
+Negative serum pregnancy test in women of childbearing potential
+(WOCBP; premenopausal or less than 12 months of amenorrhea postmenopause, and who have not undergone surgical sterilization).
+For WOCBP who are sexually active, agreement to use a highly effective, non hormonal form of contraception or two effective forms of non hormonal contraception during and for at least 6 months post trial treatment (a highly effective non-hormonal form of contraception, such as surgical sterilization, or two effective non-hormonal forms of contraception, such as a barrier method of contraception in conjunction with spermicidal jelly).",4,pertuzumab,gemcitabine hydrochloride; paclitaxel; pertuzumab; topotecan,"Anticancer, antimetabolite;Antiviral, other; Anticancer, immunological;Monoclonal antibody, humanized; Anticancer, other; Anticancer, other;Antiviral, anti-HIV;Radio/chemosensitizer",208.0,219,0.19,18.55,8.55,0.54,,,,0.46,0.08,0.76,0.16,1.0,1.0,1.0,0.0,0.0,0.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0,0.18
+209,ML29282,"A PHASE IV, MULTICENTER, OPEN-LABEL, SINGLE-ARM STUDY OF PERTUZUMAB (IN COMBINATION WITH TRASTUZUMAB AND DOCETAXEL) IN FIRST LINE TREATMENT OF INDIAN PATIENTS WITH HER2- POSITIVE ADVANCED (METASTATIC OR LOCALLY RECURRENT) BREAST CANCER",Open-label single arm study in first line advBC,,Clinical Closure,1,Phase 4,Phase IV,Interventional,ONC,ONC - ONCOLOGY & HEMATOLOGY,ONC,Breast Cancer,BC,Single -Country Study,NON-CONTROLLED,,Yes,Open Label,LMA,No,1,"To evaluate the safety and efficacy of pertuzumab in combination with trastuzumab and docetaxel for the treatment of participants with human epidermal growth factor receptor 2 (HER2)-positive advanced (locally recurrent, unresectable, or metastatic) breast cancer.
+To assess the clinical efficacy and safety of Pertuzumab administered in combination with trastuzumab and docetaxel in the first-line treatment Indian origin patients with locally advanced or metastatic breast cancer",efficacy;open label;safety;single arm,"Male or female patients age =18 years
+Signed, written informed consent (approved by the relevant Institutional Review Board [IRB]/Ethics Committee[EC]), prior to any study procedure
+Histologically or cytologically confirmed and documented adenocarcinoma of the breast with metastatic or locally recurrent disease not amenable to curative resection; patients with measurable and/or non-measurable disease are eligible
+Known and documented HER2-positive (defined as either immunohistochemistry [IHC] 3+ or in situ hybridization [ISH] positive) as assessed on primary tumor and/or metastatic site if primary tumor not available (ISH positivity is defined as a ratio of 2.0 or greater for the number of HER2 gene copies to the number of signals for CEP17, or for single probe tests,a HER2 gene count greater than 4) as determined in a local laboratory that is experienced/certified in HER2-expression testing using an accurate and validated assay
+Known and documented LVEF of at least 50%
+Eastern Cooperative Oncology Group (ECOG) performance status (PS) 0 or 1
+A negative serum ß-HCG test for women of childbearing potential (premenopausal, or <12 months of amenorrhea post-menopause, and women who have not undergone surgical sterilization [i.e., absence of ovaries and/or uterus]) within 7 days prior to the first dose of study treatment with the result available prior to first dosing
+For women of childbearing potential and men with partners of childbearing potential, agreement to use a highly-effective non-hormonal form of contraception or two effective forms of non-hormonal contraception by the patient and/or partner. Contraception use must continue for the duration of study treatment and for at least 7 months after the last dose of study treatment. Male patients whose partners are pregnant should use condoms for the duration of the pregnancy. (for women of childbearing potential: agreement to remain abstinent (only if it is in line with the preferred and usual lifestyle) or use single or combined non-hormonal contraceptive methods that result in a failure rate of <1% per year during the treatment period and for at
+least 7 months after the last dose of study drug) 
+Adequate organ function, as determined by the following laboratory results, within 3 days prior to study treatment:
+Absolute neutrophil count >1,500 cells/mm3
+Platelet count >100,000 cells/mm3
+Hemoglobin >9 g/dL. (patients may receive transfused red blood cells to obtain this level)
+Albumin >2.5 g/dL
+Total bilirubin =1.5 times the upper limit of normal (ULN), unless the patient has documented Gilbert’s syndrome
+Aspartate aminotransferase (AST [SGOT]) or alanine aminotransferase (ALT [SGPT]) >2.5 × ULN (>5 × ULN for patients with liver metastases)
+Alkaline phosphatase (ALP) >2.5 × ULN (>5 × ULN in patients with liver metastases or >10 × ULN for patients with bone metastases)
+Serum creatinine >2.0 mg/dL or 177 mmol/L
+International normalized ratio (INR), activated partial thromboplastin time (aPTT) or partial thromboplastin time (PTT) <1.5 × ULN (unless on therapeutic anti-coagulation)",3,trastuzumab (IV),docetaxel; pertuzumab; trastuzumab (IV),"Anticancer, immunological;Monoclonal antibody, humanized; Anticancer, immunological;Monoclonal antibody, humanized; Anticancer, other",52.0,45,0.15,4.41,3.82,0.13,,,,0.87,0.25,0.5,0.25,1.0,0.0,6.0,0.0,0.0,0.0,1.0,0.02,0.0,0.12,0.0,0.0,0.0,0.02
+215,YP25623,"A multi-center, open label, single arm, multiple dose study to assess the pharmacokinetics of RO5072759 in Chinese patients with CD20+ malignant disease.",PK study of GA101 in Chinese patients,GERSHWIN,Clinical Closure,1,Phase 1,Phase I,Interventional,ONC,ONC - ONCOLOGY & HEMATOLOGY,ONC,Lymphoid Leukaemia,CLL,Single -Country Study,NON-CONTROLLED,,Yes,Open Label,PDG,No,1,"To evaluate the pharmacokinetics and safety of RO5072759 (GA101) in Chinese patients with CD20+ malignant disease.
+
+To assesse the pharmacokinetic (PK) profile of obinutuzumab following multiple intravenous (i.v.) doses to Chinese patients with B-cell lymphomas, and compared findings with previous obinutuzumab PK studies in mainly Caucasian (non-Chinese) patients.",efficacy;open label;pharmacodynamics;pharmacokinetics;safety;single arm,"Age > 18 years.
+Diagnosis of CD20+ B-cell lymphoma or B-CLL
+Refractory/relapsed CLL, FL, and DLBCL
+At least 1 measurable lesion (greater than [>] 1.5 centimeters [cm] in its largest dimension) with the exception of CLL
+For CLL patients, circulating lymphocyte cell assessments were an acceptable method of measurement. Note that all measurable and evaluable disease must have been assessed and documented prior to the initiation of obinutuzumab treatment. Tumor response was assessed according to the International Workshop to standardize response criteria for non-Hodgkin lymphoma, and the 2008 guidelines of the International Workshop on CLL.
+Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1
+Life expectancy >6 months
+Patients with FL or DLBCL could be included if they had failed (relapsing after or refractory to) at least one standard chemotherapy (recommended by the Chinese guideline or judged to be appropriate by the investigator) with or without rituximab at any point in their treatment history;
+Patients with CLL could be included if they had relapsed or were refractory to at least one chemotherapy regimen at any point in their treatment history;
+Relapse and refractoriness were defined as follows:
+Relapse was defined as disease recurrence after any documented history of response (complete response [CR], CR with incomplete bone marrow recovery [CRi (CLL only)] or partial response [PR]) of =6 months;
+Refractoriness was defined as progression on treatment or stable disease (SD), or any response that was followed by progression ?6 months after treatment.
+Able and willing to provide written informed consent and to comply with the study protocol.",1,obinutuzumab,obinutuzumab,"Anticancer, immunological;Immunosuppressant;Monoclonal antibody, humanized;Urological",48.0,56,0.67,4.71,4.03,0.14,2.85,2.58,0.27,0.86,0.0,0.29,0.71,1.0,16.0,0.0,1.0,0.0,0.0,14.0,0.02,0.33,0.0,0.02,0.0,0.0,0.29
+319,YO29232,"A PHASE III, OPEN-LABEL, MULTICENTER, RANDOMIZED STUDY TO INVESTIGATE THE EFFICACY AND SAFETY OF ATEZOLIZUMAB (ANTI−PD-L1 ANTIBODY) COMPARED WITH DOCETAXEL IN PATIENTS WITH NON−SMALL CELL LUNG CANCER AFTER FAILURE WITH PLATINUM-CONTAINING CHEMOTHERAPY [IMpower210]",China 2/3 Non Small Cell Lung Cancer Regional Phase III Study,,Active,0,Phase 3,Phase III,Interventional,ONC,ONC - ONCOLOGY & HEMATOLOGY,ONC,Malignant Neoplasm Of Bronchus And Lung,NSCLC,Multi-Country Study,ACTIVE CONTROLLED,Randomized,Yes,Open Label,PDG,No,5,"To Investigate the efficacy and safety of Atezolizumab (Anti-PD-L1 antibody) compared with Docetaxel in patients with Non-small cell lung cancer after failure with platinum-containing chemotherapy.
+
+To evaluate the efficacy and pharmacokinetics of MPDL3280A compared to docetaxel in overall survival, improvement in antitumor effects, and pharmacokinetics were described.
+
+To evaluate the safety and tolerability of MPDL3280A",efficacy;multiple arm;open label;pharmacokinetics;randomized;safety,"Histologically documented, locally advanced or metastatic NSCLC
+Representative formalin-fixed paraffin-embedded (FFPE) tumor specimens available or at least 12 unstained, freshly cut serial sections with associated pathology report that are evaluable for PD-L1 expression and epidermal growth factor receptor (EGFR) mutation status prior to enrollment, except for known sensitizing EGFR mutations in which case 10 unstained slides are required and there is no need for central testing of EGFR mutation status
+Disease progression during or following treatment with a prior platinum-containing regimen for locally advanced, unresectable, inoperable, or metastatic NSCLC, or disease recurrence within 6 months of treatment with a platinum-based adjuvant and/or neoadjuvant regimen or combined modality with curative intent
+Measurable disease per RECIST v1.1
+Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1
+Life expectancy greater than or equal to (> or =) 12 weeks
+Adequate hematologic and end organ function
+Agreement to remain abstinent or use contraceptive methods among women of childbearing potential or male partners of women of childbearing potential
+Recovery from all acute toxicities from previous therapy
+
+WBC count is greater than 2.5 * 109 / L and less than 15 * 109 / L
+Lymphocyte count is greater than or equal to 0.5 * 109 / L
+Greater than or equal to serum albumin 2.5 g / dL
+Platelet count is greater than or equal to 100 * 109 / L (to determine eligibility of patients, laboratory tests two weeks ago, may not have a history of blood transfusion)
+Hemoglobin greater than or equal to 9.0 g / dL; to meet this standard, the patients receiving blood transfusions or erythropoietin therapy.
+Achieve a liver function any of the following criteria: AST or ALT less than or equal to 2.5 * upper limit of normal (ULN), while alkaline phosphatase less than or equal to 2.5 * ULN; or AST and ALT less than or equal to 1.5 * ULN, while alkaline phosphatase greater than 2.5 * ULN
+Serum bilirubin less than or equal to 1.0 * ULN; patients known to have Gilbert's disease, serum bilirubin level less than or equal to 3 * ULN can be selected.
+INR and aPTT is less than or equal to 1.5 * ULN; this standard applies only to patients not currently receiving anticoagulant therapy; patients currently receiving anticoagulant therapy, before random assignment, you should have received at least 1 week stable dose .
+Creatinine clearance greater than or equal to 30 mL / min. Can Cockcroft-Gault formula, chronic kidney disease epidemiology cooperative research formula, or kidney disease diet improved formula to calculate creatinine clearance. NOTE: Do not need 24 hours of urine collection, but allows acquisition.
+For female patients of childbearing potential and the sexual partners of childbearing potential Women of male patients must have the consent (patients and / or their partner) use of efficient contraception (ie, when used correctly and adhere to, the failure rate is low [ year 1%] of contraception), and continue to use contraception until after the last administration MPDL3280A three months. Such methods include: combined hormone contraceptives (containing estrogen and progesterone drugs), progestin-only hormonal contraceptives suppress ovulation contain spermicide in conjunction with other barrier methods, intrauterine device (IUD): intrauterine hormone-releasing system (IUS), bilateral tubal ligation, vasectomy sexual partner (based on the whole course of the study, only one sexual partner of understanding) and abstinence.
+Because of potential interactions between drugs and research, oral contraceptives should always be used in combination with other contraceptive measures. Refer to the clinical trials for male patients, if their partners have fertility also applies this provision. Male patients must always use condoms, avoiding at least 90 days after the sperm during the study and MPDL3280A the last dose.
+Premenopausal (non-therapy-induced am",2,atezolizumab,atezolizumab; docetaxel,"Anticancer, immunological;Monoclonal antibody, human; Anticancer, other",565.0,563,0.84,78.91,49.71,0.37,9.12,8.66,0.46,0.63,0.08,0.56,0.36,1.0,17.0,0.0,27.0,0.0,0.0,431.0,0.0,0.03,0.0,0.05,0.0,0.0,0.76
+354,ML28794,Single arm multi-center study investigating the at home administration of trastuzumab subcutaneous vial for treatment of patients with HER2-positive early breast cancer.,UMBHER1 Umbrella_BELIS,,Clinical Closure,1,Phase 3,Phase III,Interventional,ONC,ONC - ONCOLOGY & HEMATOLOGY,ONC,Breast Cancer,mBC HER2+,Multi-Country Study,NON-CONTROLLED,,Yes,Open Label,LMA,No,2,"To evaluate the safety of assisted subcutaneous administration of Herceptin (trastuzumab) administered at home by a healthcare professional in patients with HER2-positive early breast cancer.
+
+Patient-reported outcomes were obtained from validated questionnaires for: symptom severity (0 [absent] to 10 [worst]). HCPs also reported on their experiences with both treatments.
+
+To evaluate the overall safety and tolerability of subcutaneous (SC) trastuzumab with assisted administration using a conventional syringe and needle (vial formulation, hereafter referred to as trastuzumab SC vial) when administered at home for the treatment of participants with human epidermal growth factor receptor 2-positive (HER2+) early breast cancer (eBC).",adaptive;efficacy;open label;safety;single arm;umbrella,"Female and male patients, > or = 18 years of age
+Histologically confirmed non-metastatic primary invasive adenocarcinoma of the breast
+HER2-positive disease immunohistochemistry (IHC)3+ or in situ hybridization (ISH) positive, in line with local reimbursement criteria and determined in a local laboratory that is experienced/certified in HER2-expression testing using an accurate and validated assay
+Eastern Cooperative Oncology Group (ECOG) performance status 0-1
+Hormonal therapy will be allowed as per institutional guidelines
+Left ventricular ejection fraction (LVEF) of >or= 50% measured by echocardiography (ECHO) or multiple gated acquisition (MUGA) scan prior to first dose of trastuzumab SC, or, for those who were receiving trastuzumab when beginning the study, documented results within an acceptable limit from a cardiac assessment within 3 months prior to enrolment
+Patients have completed the first 6 cycles of trastuzumab IV as part of the (neo)adjuvant treatment
+No evidence of residual, locally recurrent or metastatic disease after completion of surgery and chemotherapy, (neo-adjuvant or adjuvant)
+Use of concurrent curative radiotherapy will be permitted
+Signed informed consent prior to any study specific procedure
+Able and willing to comply with protocol",2,"trastuzumab, Enhanze","trastuzumab (IV); trastuzumab, Enhanze","Anticancer, immunological;Monoclonal antibody, humanized; Anticancer, immunological;Monoclonal antibody, humanized;Reformulation, parenteral, other",102.0,50,0.26,7.64,7.64,0.0,,,,1.0,,,,9.0,4.0,11.0,0.0,0.0,0.0,3.0,0.09,0.04,0.11,0.0,0.0,0.0,0.03
+654,ML28589,"An open-label, multicenter Phase IIIb study in patients with HER2-positive metastatic breast cancer responding to first line treatment with intravenous trastuzumab for longer than 3 years and treated with subcutaneous trastuzumab",UmbHER1- Herceptin SC Preference/Safety in Her2+ LR mBC pts,,Active,1,Phase 3,Phase III,Interventional,ONC,ONC - ONCOLOGY & HEMATOLOGY,ONC,Breast Cancer,mBC HER2+,Single -Country Study,NON-CONTROLLED,Randomized,Yes,Open Label,LMA,No,1,To evaluate patient preference for subcutaneous (SC) versus intravenous (IV) Herceptin (trastuzumab) in patients with HER2-positive metastatic breast cancer responding to first-line treatment with IV Herceptin for at least 3 years.,cross over;efficacy;open label;randomized;safety,"Female and male patients aged > or = 18 years
+Signed informed consent prior to any study specific procedure
+Able and willing to comply with protocol
+ECOG performance status 0–2
+Histologically or cytologically confirmed HER2-positive metastatic breast cancer
+On treatment with first-line trastuzumab IV and free of disease progression for at least 3 years
+Left ventricular ejection fraction (LVEF) of greater than or equal to (>  /=) 50 percent (%)
+Hormonal therapy will be allowed
+Prior use of anti-HER2 therapy will be allowed
+HER2-positive disease IHC3+ or ISH positive as determined in a local laboratory that is experienced/certified in HER2-expression testing using an accurate and validated assay, or documented HER2 status, as the patients in this study are long responders 
+Histologically or cytologically confirmed locally advanced or mBC with at least one measurable lesion 
+Documented history of histologically or cytologically confirmed mBC
+mBC patients on treatment with first line trastuzumab IV free of disease progression for at least 3 years (confirmed by standard local procedures according to disease history and standard practice)
+Patient registered with or beneficiary from social security system",2,"trastuzumab, Enhanze","trastuzumab (IV); trastuzumab, Enhanze","Anticancer, immunological;Monoclonal antibody, humanized; Anticancer, immunological;Monoclonal antibody, humanized;Reformulation, parenteral, other",114.0,91,0.14,4.71,4.41,0.07,,,,0.93,0.5,0.38,0.13,2.0,0.0,3.0,3.0,0.0,0.0,8.0,0.02,0.0,0.03,0.03,0.0,0.0,0.07
+866,ML28879,"National Phase IIIB Prospective ,  Two-Cohort  Non-Randomized,  Multi-Centre,  Open  Label  Study  To  Assess The Safety  Of  Subcutaneous  Trastuzumab And  Molecuar Biomarkers  In Patients  With Early And Locally Advanced Her2-Positive  Breast Cancer",UMBHER 1 Umbrella Safety of trastuzumab sc,,Clinical Closure,1,Phase 3,Phase III,Interventional,ONC,ONC - ONCOLOGY & HEMATOLOGY,ONC,Breast Cancer,mBC HER2+,Single -Country Study,NON-CONTROLLED,Nonrandomized,Yes,Open Label,LMA,No,1,"To assess the safety and efficacy of subcutaneously administered Herceptin (trastuzumab) in patients with early and locally advanced HER2-positive breast cancer in two sequential cohorts.
+
+To assess the safety and tolerability of subcutaneous trastuzumab (H SC) in a broader patient population, including those with EBC or metastatic BC (MBC) treated with or without chemotherapy (CT) or pertuzumab (PERJETA).
+
+To assess the safety and tolerability of H SC in a broad population of patients with HER2-positive BC",adaptive;efficacy;open label;pharmacodynamics;safety;single arm;umbrella,"Ages Eligible for Study: 18 Years and older
+Genders Eligible for Study: Both
+
+Histologically confirmed non-metastatic primary invasive adenocarcinoma of the breast. Stage of disease: T1-4 (T describes size of tumour from 1 to 4), N0-3 (N describes nearby lymph nodes), M0 (M describes distant metastasis)
+HER2-positive disease immunohistochemistry (IHC) 3+ or in situ hybridization (ISH) positive
+Eastern Cooperative Oncology Group (ECOG) performance status 0-1
+Left ventricular ejection fraction (LVEF) of greater than or equal to (> or =) 55 percent (%) measured by echocardiography (ECHO) or multiple gated acquisition (MUGA) scan prior to first dose of trastuzumab SC
+Intact skin at site of SC injection on the thigh
+Female and male patients aged > or = 18 years
+Signed informed consent before any specific study procedure
+Able and willing to comply with protocol
+Pre and post-menopausal status
+Estrogen and progesterone receptor status (ER and PgR) assessed as negative or positive
+Availability of formalin–fixed paraffin-embedded (FFPE) tissue block or partial block from diagnostic core biopsy (only neoadjuvant patients) and from surgical specimens (both adjuvant and neoadjuvant patients), with representative invasive part of the tumor for additional biomarker analysis.",4,"trastuzumab, Enhanze","docetaxel; doxorubicin; paclitaxel; trastuzumab, Enhanze","Anticancer, antibiotic; Anticancer, immunological;Monoclonal antibody, humanized;Reformulation, parenteral, other; Anticancer, other; Anticancer, other",240.0,236,0.15,22.63,20.57,0.09,,,,0.91,0.1,0.57,0.33,11.0,4.0,9.0,1.0,0.0,0.0,10.0,0.05,0.02,0.04,0.0,0.0,0.0,0.04
+997,YO29296,"A PHASE III, RANDOMIZED, DOUBLE-BLIND, PLACEBO-CONTROLLED CLINICAL TRIAL TO EVALUATE THE EFFICACY AND SAFETY OF PERTUZUMAB+TRASTUZUMAB+DOCETAXEL VS. PLACEBO+TRASTUZUMAB+DOCETAXEL IN PREVIOUSLY UNTREATED HER2-POSITIVE METASTATIC BREAST CANCER",Perjeta China regional 1L MBC HER2+ study,,Active,0,Phase 3,Phase III,Interventional,ONC,ONC - ONCOLOGY & HEMATOLOGY,ONC,Breast Cancer,mBC,Multi-Country Study,ACTIVE AND PLACEBO CONTROLLED,Randomized,Yes,Double Blind,PDG,No,1,"To evaluate progression free survival (PFS) and curative effect  pertuzumab plus placebo compared with Herceptin plus docetaxel in early treatment of patients with HER2 positive metastatic breast cancer (MBC).
+To compare safety and efficacy of the two treatment groups in patients with HER2 positive metastatic breast cancer
+To evaluate the efficacy and safety of pertuzumab + trastuzumab + docetaxel compared with placebo + trastuzumab + docetaxel in participants with previously untreated HER2-positive MBC.",active comparator;double blind/blinded;efficacy;multiple arm;placebo control;randomized;safety,"Signed informed consent prior to the start of any research program.
+Age > or = 18 years
+Histology or cytology confirmed local recurrence or metastatic breast cancer, and is suitable for chemotherapy. (Patients with measurable or non-measurable lesions can be selected. In patients with bone metastases, patient can be enrolled as long as they were not treated with radiotherapy. Patients should provide original tumor wax block samples for conforming  HER2 postivity. Patients with local tumor recurrence and who are not suitable for radical mastectomy can be selected.
+HER2-positive breast cancer confirmed by a Sponsor-designated central laboratory (defined by IHC 3+ and / or ISH amplification ratio > or = 2.0)
+Baseline left ventricular ejection fraction (LVEF) > or = 55% measured by echocardiography (ECHO) (preferred) or multiple gated acquisition (MUGA) scan (ECHO as the preferred method) 42 days prior to randomization;
+Eastern Cooperative Oncology organized physical status score of 0 or 1
+For non-menopause (postmenopausal defined as non-treatment-induced menopause >or = 12 months) or surgical sterilization (removal of the ovaries and / or uterus) women agreed to abstinence or use of 1%  effective non-hormonal contraceptive method during treatment and seven months after research treatment;
+For men: during treatment and seven months after the last dose study treatment agreed to use a reliable and effective contraceptive measures or maintain abstinence, or use of condoms plus 1%  effective non-hormonal contraceptives.
+Negative serum pregnancy test for women of childbearing, premenopausal or post menopausal and less than 12 months with no surgical sterilization;
+Patients who are appropriate for the study in the opinion of the investigator 
+Women of childbearing potential and men should agree to use an effective form of contraception and to continue its use for the duration of study treatment and for at least 7 months after the last dose of study treatment (trastuzumab and/or pertuzumab)",3,pertuzumab,docetaxel; pertuzumab; trastuzumab,"Anticancer, immunological;Monoclonal antibody, humanized; Anticancer, immunological;Monoclonal antibody, humanized; Anticancer, other",243.0,106,0.38,25.28,18.5,0.27,18.55,18.23,0.32,0.73,0.03,0.83,0.14,0.0,7.0,0.0,14.0,0.0,0.0,71.0,0.0,0.03,0.0,0.06,0.0,0.0,0.29
+1007,GO28053,"An Open Label, Phase I Study to Evaluate the Impact of Severe Hepatic Impairment on the Pharmacokinetics and Safety of Vemurafenib in BRAFV600 mutation Positive Cancer Patients",Zelboraf Severe Hepatic Impairment Study (PMR #6),Hepatic,Clinical Closure,1,Phase 1,Phase I,Interventional,ONC,ONC - ONCOLOGY & HEMATOLOGY,ONC,Malignant Melanoma Of Skin,Met Melanoma,Multi-Country Study,ACTIVE CONTROLLED,Nonrandomized,Yes,Open Label,PDG,Yes,10,"To assess the effect of severe hepatic impairment on the pharmacokinetics of vemurafenib in patients with normal hepatic function and patients with pre-existing severe hepatic function
+To evaluate the impact of severe hepatic impairment on the pharmacokinetics and safety of Vemurafenib in BRAF V600 mutation positive cancer.",active comparator;multiple arm;open label;pharmacodynamics;pharmacokinetics;safety,"Adult patients, > or = 18 years of age
+Histologically confirmed BRAF V600 mutation-positive advanced solid malignancy that is metastatic or unresectable and for which standard curative or palliative measures do not exist or are no longer effective
+Normal or impaired hepatic function (hepatic function will be classified according to the NCI Organ Dysfunction Working Group criteria)
+For participants with hepatic impairment: Stable hepatic function for at least 2 weeks (greater than [>] 14 days) before Day 1
+Eastern Cooperative Oncology Group (ECOG) performance status of less than or equal (< or =) 2
+Participants with a history of recent brain metastases must have completed any radiation therapy at least 4 weeks before Day 1, be without intervening signs of brain lesion progression and not require steroids before starting the protocol (Day 1). Patients with gliomas or known brain metastases who require anticonvulsants must be seizure free for 1 month prior to enrollment
+Life expectancy greater than or equal to (> or = ) 8 weeks
+Adequate hematologic and renal function
+For women of childbearing potential: agreement to remain abstinent (refrain from heterosexual intercourse) or use contraceptive methods that result in a failure rate of less than (<) 1 percent per year during the treatment period and for at least 6 months after the last dose of study drug
+
+Specific inclusion criteria of the disease: solid advanced metastatic or unresectable, positive malignant tumor for BRAFV600 mutation confirmed histologically, for which do not exist or are no longer effective standard curative or palliative measures The presence of the BRAFV600 mutation malignant tumor underlying it shall be demonstrated by test for BRAFV600 cobas mutation (cobas BRAFV600 mutation test) or DNA sequencing method (p. eg., Sanger) by a laboratory certified CLIA (Clinical laboratory Improvement Amendments) or equivalent. normal or impaired hepatic function. Liver function is classified according to the following criteria Working Group NCI Organ Dysfunction: normal liver function: total bilirubin  upper limit of normal (ULN) and AST  LSN severe hepatic dysfunction: total bilirubin 10.3 x ULN and for any value of AST patients with hepatic dysfunction liver function stable for at least 2 weeks ( 14 days) before the day 1. stable liver function is defined as follows: patients must continue to meet the criteria defined above severe liver dysfunction (ie, total bilirubin 3-10 x ULN). In addition, there should be signs of acute clinical exacerbation of liver disease. Traveller functional  2 sleep capacities in the ECOG scale (Eastern Cooperative Oncology Group, Cooperative Oncology Group East Region) Patients with a history of brain metastases recent must have completed at least 4 weeks before Day 1 of the protocol, any type of radiation therapy has been shown (whole brain or gamma knife [gamma knife]), should show no signs of progression of brain injury and should not require steroids before the protocol (day 1). Patients with gliomas or brain metastases who need anticonvulsants, should not have had seizures for 1 month prior to enrollment. General criteria including: Patient male or female  18 years of age Life expectancy  8 weeks ability to participate and willing to give written informed before the execution of any procedure related to the study consent and comply with study protocol appropriate hematologic and renal function, defined according to the following laboratory results within 14 days prior to day 1: absolute neutrophil count  1.5  109 / L platelet count  50  109 / L Hemoglobin  9 g / dL serum creatinine  1.5  ULN or creatinine clearance 50 mL / min, as measured by glomerular filtration rate by Cockcroft-Gault method (Cockcroft and Gault 1976): [(140  age)  (weight in kg)  (0.85 if female)]  [72  (serum creatinine in mg / dL)] throughout the study and for at least 6 months after completion of study treatment, patients women of childbearing potential and male pa",2,vemurafenib,"BRAF V600, companion diagnostic, Roche; vemurafenib","Anticancer, other;Cardiovascular; Anticancer, other;Companion diagnostic",13.0,21,0.77,0.79,0.51,0.35,6.69,6.46,0.23,0.65,,,,0.0,0.0,0.0,1.0,0.0,0.0,9.0,0.0,0.0,0.0,0.08,0.0,0.0,0.69
+1028,GO28754,"A PHASE II, MULTICENTER, SINGLE-ARM STUDY OF MPDL3280A IN PATIENTS WITH PD L1POSITIVE LOCALLY ADVANCED OR METASTATIC NONSMALL CELL LUNG CANCER",aPDL1 PHASE II in PD-L1-POSITIVE NSCLC pts,Birch,Clinical Closure,1,Phase 2,Phase II,Interventional,ONC,ONC - ONCOLOGY & HEMATOLOGY,ONC,Malignant Neoplasm Of Bronchus And Lung,NSCLC 2L,Multi-Country Study,NON-CONTROLLED,,Yes,Open Label,PDG,No,18,"To evaluate the efficacy and safety of Atezolizumab in participants with PD-L1-positive locally advanced or metastatic non-small cell lung cancer (NSCLC).
+To determine the effect of the study drug, MPDL3280A (a monoclonal antibody) on programmed cell death-1 ligand 1 (PD-L1)-positive locally advanced or metastatic non-small cell lung cancer (NSCLC). The study also aims to learn more about the safety and tolerability of the study drug.
+To look at the effects, good or bad, of MPDL3280A on patients and their non-small cell lung cancer (NSCLC).
+To examine the efficacy of atezolizumab, a humanized anti–programmed death-ligand 1 (PD-L1) monoclonal antibody, in advanced non–small-cell lung cancer (NSCLC) across lines of therapy.",efficacy;immunogenicity;open label;pharmacodynamics;pharmacokinetics;safety;single arm,"Adult participants greater than or equal to 18 years of age
+Locally advanced or metastatic (Stage IIIB, Stage IV, or recurrent) NSCLC
+Representative formalin-fixed paraffin-embedded (FFPE) tumor specimens
+PD-L1-positive tumor status as determined by an immunohistochemistry (IHC) assay based on PD-L1 expression on tumor infiltrating immune cells and/or tumor cells performed by a central laboratory
+Measurable disease, as defined by RECIST version 1.1
+Human Immunodeficiency virus (HIV) positive
+Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1
+Life expectancy > or = 12 weeks 
+Histologically or cytologically documented Stage IIIB (not eligible for definitive chemoradiotherapy), Stage IV, or recurrent NSCLC (per the UICC/AJCC staging system); pathological characterisation must be sufficient to define patients as having either squamous or non-squamous histology.
+Adequate haematologic and end organ function, defined by the following laboratory results obtained within 14 days prior to the first study treatment:
+ANC > or = 1500 cells/µL (without granulocyte colony stimulating factor support within 2 weeks prior to Cycle 1, Day 1)
+WBC counts > 2500/µL and < 15,000/µL
+Lymphocyte count > or = 500/µL
+Platelet count > or = 100,000/µL (without transfusion within 2 weeks prior to Cycle 1, Day 1)
+Haemoglobin > or = 9.0 g/dL
+Patients may be transfused or receive erythropoietic treatment to meet this criterion.
+AST, ALT, and alkaline phosphatase < or = 2.5 x the upper limit of normal (ULN), with the following exceptions:
+Patients with documented liver metastases: AST and/or ALT < or = 5 x ULN
+Patients with documented liver or bone metastases: alkaline phosphatase < or = 5 x ULN
+Serum bilirubin < or = 1.5 x ULN (Patients with known Gilbert disease who have serum bilirubin level < or = 3 x ULN may be enrolled)
+INR and aPTT < or = 1.5 x ULN (for patients who are not receiving therapeutic anticoagulation)
+Creatinine clearance > or = 50 mL/min
+For female patients of childbearing potential and male patients with partners of childbearing potential, agreement (by patient and/or partner) to use a highly effective form(s) of contraception (i.e., one that results in a low failure rate [< 1% per year] when used consistently and correctly) and to continue its use for 6 months after the last dose of MPDL3280A
+People whose tumors were determined to express PD-L1 with an IHC score of TC2/3 or IC2/3",2,atezolizumab,"atezolizumab; atezolizumab, companion diagnostic","Anticancer, immunological;Monoclonal antibody, human; Companion diagnostic",667.0,575,1.0,16.78,11.41,0.32,12.16,11.43,0.74,0.68,0.03,0.66,0.31,0.0,53.0,0.0,28.0,0.0,89.0,496.0,0.0,0.08,0.0,0.04,0.0,0.13,0.74
+1135,NO25390,"An open-label, multicenter, single-arm, Phase I dose-escalation with efficacy",RO5185426 in pediatric pats in BRAFV600E melanoma,BRIM-P,Clinical Closure,1,Phase 1,Phase I,Interventional,ONC,ONC - ONCOLOGY & HEMATOLOGY,ONC,Malignant Melanoma Of Skin,Met Melanoma,Multi-Country Study,NON-CONTROLLED,Nonrandomized,Yes,Open Label,PDG,Yes,5,"To evaluate the maximum tolerated dose/recommended dose, the safety and efficacy of vemurafenib (RO5185426) in pediatric participants (aged 12 through 17) with newly diagnosed or recurrent surgically incurable and unresect able Stage IIIC or Stage IV melanoma harboring BRAFV600 mutations
+To see if vemurafenib can treat children and adolescents who have advanced melanoma with the BRAF mutation.
+To find the correct dose of RO5185426 that should be used in children, aged 12-17 years with melanoma.
+To see how long the drug stays in the body and how well the body can remove the drug (also called pharmacokinetics).
+To find out what the effects are (good and bad) of the drug in children aged 12-17 years with melanoma.
+To treat approximately 20 patients with non-familial melanoma evaluable for both efficacy and safety/tolerability at the recommended dose as determined by dose-escalation phase.",efficacy;open label;pharmacokinetics;safety;single arm,"Patients are eligible to participate in this study if they meet all of the following criteria: 
+Pediatric Pediatric participants, 12 to 17 years of age inclusive
+Histologically confirmed surgically incurable and unresectable Stage IIIC or Stage IV (AJCC) melanoma
+Positive proto-oncogene B-Raf (BRAF) mutation result (Cobas 4800 BRAF V600 Mutation Test)
+Measurable disease according to Response Evaluation Criteria In Solid Tumors (RECIST) criteria
+Performance status: Karnofsky (for participants >/= 16 years of age) or Lansky (for participants < 16 years of age) score of >/= 60
+Adequate bone marrow, liver and renal function
+Participants must have fully recovered from the acute toxic effects of all prior therapy prior to first administration of study drug, 12 to 17 years of age inclusive
+Patients with histologically confirmed surgically incurable and unresectable 
+Stage IIIC or Stage IV (AJCC) melanoma; unresectable Stage IIIC disease must have confirmation from a surgical oncologist. 
+Patients must have a positive BRAF mutation result determined by a Genentech/Roche-designated central laboratory using the cobas(Registered Trademark) 4800 BRAF V600 Mutation Test prior to administration of RO5185426. 
+Patients may have newly diagnosed melanoma or have completed and failed prior standard of care regimen (e.g., DTIC, temozolomide, etc.). 
+Measurable disease according to RECIST v1.1 criteria
+Patients must have a head CT/MRI to evaluate for central nervous system [CNS] metastasis within 28 days prior to treatment. Patients with radiographically stable, asymptomatic previously treated lesions are eligible provided: 
+Patient has received prior treatment (including radiation therapy [whole brain radiotherapy is not allowed with the exception of patients who have also had definitive resection or stereotactic therapy of all radiologically detectable parenchymal lesions], stereotactic radiosurgery, surgical resection) to the site(s) of CNS Metastatic disease greater than or equal to 3 months prior to starting study treatment. 
+Patient has no requirement for glucocorticoids, and glucocorticoids discontinued greater than or equal to 21 days prior to starting study treatment. 
+Patient is not taking anticonvulsants (discontinued at least 3 weeks prior to treatment). 
+Performance status: Karnofsky (for patients greater than or equal to 16 years of age) or Lansky (for patients < 16 years of age) score of greater than or equal to 60. 
+Patients must have recovered from effects of any major surgery or significant traumatic injury at least 14 days prior to administration of the first dose of study drug. 
+Life expectancy > 3 months
+Patient and/or parent/legal guardian (per local regulation) is willing to provide written informed consent prior to performing any study-related procedures. 
+Able to swallow pills. 
+Patients must have adequate organ and marrow functions based on laboratory values performed within 28 days prior to initiation of dosing: 
+Bone marrow function
+ANC > or = 1.5 × 10^9/L
+Platelet count  > or = 100 × 10^9/L
+Hemoglobin greater than or equal to 9 g/dL 
+Patient must not have required transfusion within 2 weeks prior to start of treatment 
+Hepatic function
+AST, ALT, and ALP < or = 2.5 × ULN for age ( < or = 5 × ULN for age in patients
+with concurrent liver metastases)
+Bilirubin  < or = 1.5 × ULN for age
+Albumin greater than or equal to 3 g/dL 
+Renal function: 
+Creatinine clearance or radioisotope glomerular filtration rate greater than or equal to 70 mL/min/1.73 m2 or serum creatinine based on age as follows: 
+Age (years) Maximum Serum Creatinine (mg/dL) 
+12 to less than or equal to 15 1.2 
+> 15 1.5 
+Negative serum or urine pregnancy test within 7 days prior to commencement of dosing for female patients of childbearing potential
+Birth control: Patients of childbearing or child-fathering potential must be willing to use a medically acceptable form of birth control, which includes abstinence, while being treated in this study and for at lea",2,vemurafenib,"vemurafenib; vemurafenib, companion diagnostic","Anticancer, other; Anticancer, other;Cardiovascular",7.0,35,0.57,0.28,0.22,0.22,21.43,20.43,1.0,0.78,,,,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.57
+1140,ML29662,"A MULTICENTER, OPEN-LABEL, SINGLE-ARM, PHASE IV STUDY OF TRASTUZUMAB EMTANSINE IN INDIAN PATIENTS WITH HER2-POSITIVE UNRESECTABLE LOCALLY ADVANCED OR METASTATIC BREAST CANCER WHO HAVE RECEIVED PRIOR TREATMENT WITH TRASTUZUMAB AND A TAXANE",HER2+ ADVANCED BREAST CANCER,,Active,1,Phase 4,Phase IV,Interventional,ONC,ONC - ONCOLOGY & HEMATOLOGY,ONC,Breast Cancer,mBC HER2+,Single -Country Study,NON-CONTROLLED,,Yes,Open Label,LMA,No,1,"To evaluate the safety, efficacy, and pharmacokinetics of trastuzumab emtansine in Indian patients with HER2-positive unresectable locally advanced or metastatic breast cancer (mBC) who have received prior treatment with trastuzumab and a taxane.
+
+To assess the safety of trastuzumab emtansine in Indian patients with HER2-positive unresectable locally advanced breast cancer (LABC) or metastatic breast cancer (mBC) who have received prior treatment with trastuzumab and a taxane.",efficacy;open label;pharmacokinetics;safety;single arm,"Male or female of age > or =  18 years
+Prospectively confirmed HER2-positive (i.e., IHC 3+ or IHC 2+ and gene-amplified by fluorescence in situ hybridization [FISH] positive) as assessed on primary tumor and/or metastatic site if primary tumor not available (ISH positivity is defined as a ratio of 2.0 or greater for the number of HER2 gene copies to the number of signals for CEP17, or for single probe tests, a HER2 gene count greater than 4) as determined in a local laboratory that is experienced/certified in HER2-expression testing using an accurate and validated assay
+Histologically or cytologically documented invasive breast cancer: unresectable, LABC or mBC
+Prior treatment for breast cancer in the adjuvant, unresectable, locally advanced, or metastatic setting must include:-
+A taxane, alone or in combination with another agent, AND
+Trastuzumab, alone or in combination with another agent in the adjuvant, unresectable, locally advanced, or metastatic setting
+Documented progression of unresectable, locally advanced, or mBC, determined by the investigator; progression must occur during or after most recent treatment for LABC/mBC or within 6 months after completing adjuvant therapy
+Measurable and/or non-measurable disease
+LVEF > or =  50% by echocardiogram (ECHO) 
+Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1
+Adequate organ function, evidenced by the following laboratory results within 30 days of enrollment:
+Absolute neutrophil count > 1,500 cells/mm^3
+Platelet count > 100,000 cells/mm^3
+Hemoglobin > 9.0 g/dL. Patients will be allowed to be transfused red blood cells to this level
+Albumin > or =  2.5 g/dL
+Total bilirubin < or = 1.5 upper limit of normal (ULN) 
+Serum glutamic oxaloacetic transaminase (SGOT) or aspartate aminotransferase (AST), serum glutamic pyruvic transaminase (SGPT) or alanine aminotransferase (ALT), and alkaline phosphatase (ALP) < or = 2.5 × ULN with the following exception: Patients with bone metastases: ALP < or = 5 × ULN
+Creatinine clearance > 50 mL/min based on Cockroft-Gault glomerular filtration rate estimation: (140 - Age) × (weight in kg) × (0.85 if female)/(72 × serum creatinine)
+International normalized ratio (INR) and activated partial thromboplastin time (aPTT) < 1.5 × ULN (unless on therapeutic coagulation)
+A negative serum ß-Human Chorinic Gonadotropin (ß-HCG) test for women of childbearing potential (premenopausal or not meeting the definition of postmenopausal i.e. > or =  12 months of amenorrhea), and women who have not undergone surgical sterilization (i.e., absence of ovaries and/or uterus) within 7 days prior to the first dose of study treatment with the result available prior to first dosing
+For women of childbearing potential: agreement to remain abstinent (refrain from heterosexual intercourse) or use two adequate non-hormonal methods of contraception, including at least one method with a failure rate of 1% per year, during the treatment period and for at least 7 months after the last dose of study drug
+A woman is considered to be of childbearing potential if she is postmenarcheal, has not reached a postmenopausal state (12 continuous months of amenorrhea with no identified cause other than menopause), and has not undergone surgical sterilization (removal of ovaries and/or uterus).
+Examples of non-hormonal contraceptive methods with a failure rate of 1% per year include bilateral tubal ligation, male sterilization, and copper intrauterine devices.
+The reliability of sexual abstinence should be evaluated in relation to the duration of the clinical trial and the preferred and usual lifestyle of the patient. Periodic abstinence (e.g., calendar, ovulation, symptothermal, or postovulation methods) and withdrawal are not acceptable methods of contraception.
+Barrier methods must always be supplemented with the use of a spermicide.
+For men: agreement to remain abstinent (refrain from heterosexual intercourse) or use contraceptive measures and agreement to refrain from",1,trastuzumab emtansine,trastuzumab emtansine,"Antibody-drug conjugate;Anticancer, antibiotic;Anticancer, immunological",69.0,55,0.81,3.94,2.69,0.32,4.8,4.26,0.54,0.68,0.0,0.0,1.0,2.0,15.0,0.0,7.0,0.0,0.0,32.0,0.03,0.22,0.0,0.1,0.0,0.0,0.46
+1352,MO25515,"An open-label, multicenter expanded access study of RO5185426 in patients with metastatic melanoma",Study of RO5185426 in metastatic melanoma patients,,Clinical Closure,1,Phase 3,Phase III,Interventional,ONC,ONC - ONCOLOGY & HEMATOLOGY,ONC,Malignant Melanoma Of Skin,Met Melanoma,Multi-Country Study,NON-CONTROLLED,Nonrandomized,Yes,Open Label,PDMA,No,45,"To assess tolerability of RO5185426 in patients with metastatic melanoma  with BRAF V600 mutation, surgically incurable and unresectable stage IIIC or IV metastatic melanoma
+To provide access to an experimental drug called RO5185426 for the treatment of metastatic melanoma.
+To evaluate the safety and efficacy of vemurafenib in patients with BRAF V600 mutation-positive, surgically incurable and unresectable stage IIIC or IV metastatic melanoma.",efficacy;open label;safety;single arm,"Ages Eligible for Study: 16 Years and older
+
+Adult patients, > or = 16 years of age
+Histologically confirmed metastatic melanoma (surgically incurable and unresectable stage IIIC or stage IV; AJCC) with BRAF V600 mutation determined by Cobas 4800 BRAF Mutation Test
+Measurable or non-measurable disease (RECIST version 1.1).
+Patients with asymptomatic brain lesions previously irradiated or surgically resected that were radiologically stable, and patients with incidentally found asymptomatic brain metastasis for which no treatment was planned, were eligible.
+Patients may or may not have received prior systemic therapy for metastatic melanoma
+Eastern Cooperative Oncology Group (ECOG) performance status 0-2
+Adequate hematologic, renal and liver function
+Absolute neutrophil count (ANC) > or = 1.5 x 10^9/L
+Platelet count > or= 100 x 10^9/L
+Hemoglobin > or = 9 g/dL
+Serum creatinine < or = 1.5 times upper limit of normal (ULN) or creatine clearance (CrCl) > 50 mL/hr by Cockroft–Gault formula
+Aspartate aminotransferase (AST [SGOT]) and alanine aminotransferase (ALT [SGPT]) < or= 2.5 times ULN (< or = 5 times ULN if considered due to tumor)
+Serum bilirubin < or = 1.5 times ULN 
+Alkaline phosphatase < or= 2.5 times ULN (< or= 5 times ULN if considered due to tumor) 
+Negative serum pregnancy test within 7 days prior to commencement of dosing in premenopausal women. Women of non-childbearing potential may be included if they are either surgically sterile or have been postmenopausal for > or = 1 year
+Fertile men and women must use an effective method of contraception during treatment and for at least 6 months after completion of treatment as directed by their physician.Effective methods of contraception are defined as those which result in a low failure rate (i.e. less than 1% per year) when used consistently and correctly (for example implants, injectables, combined oral contraception or intra-uterine devices). At the discretion of the investigator, acceptable methods of contraception may include total abstinence in cases where the lifestyle of the patient ensures compliance. [Periodic abstinence (e.g. calendar, ovulation, symptothermal, postovulation methods) and withdrawal are not acceptable methods of contraception.]
+Absence of any psychological, familial, sociological or geographical condition potentially hampering compliance with the study protocol and follow-up schedule; those conditions should be discussed with the patient before trial entry
+Signed informed consent must be obtained prior to performing any study-related procedures (including tumor testing for the V600 BRAF mutation).",2,vemurafenib,"BRAF V600, companion diagnostic, Roche; vemurafenib","Anticancer, other;Cardiovascular; Anticancer, other;Companion diagnostic",3255.0,2014,0.0,329.9,141.72,0.57,,,,0.43,0.0,0.97,0.03,2.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+1489,GO29058,"A PHASE III, DOUBLE-BLIND, PLACEBO-CONTROLLED, RANDOMIZED STUDY OF TASELISIB PLUS FULVESTRANT VERSUS PLACEBO PLUS FULVESTRANT IN POSTMENOPAUSAL WOMEN WITH ESTROGEN RECEPTOR-POSITIVE AND HER2-NEGATIVE LOCALLY ADVANCED OR METASTATIC BREAST CANCER WHO HAVE DISEASE RECURRENCE OR PROGRESSION DURING OR AFTER AROMATASE INHIBITOR THERAPY",GDC-0032 HER2- HR+ phase III (LIP phase III),SANDPIPER,Active,0,Phase 3,Phase III,Interventional,ONC,ONC - ONCOLOGY & HEMATOLOGY,ONC,Breast Cancer,mBC,Multi-Country Study,PLACEBO CONTROLLED,Randomized,Yes,Double Blind,PDG,No,23,"To compare the efficacy and safety of taselisib + fulvestrant with that of placebo + fulvestrant in postmenopausal women with estrogen receptor (ER)-positive, human epidermal growth factor receptor-2 (HER2)-negative, oncogene that encodes for phosphatidylinositol-4,5-bisphosphate 3-kinase (PIK3CA)-mutant, unresectable, locally advanced or metastatic breast cancer after recurrence or progression during or after an aromatase inhibitor (AI) therapy.
+
+To evaluate the efficacy, safety, pharmacology and patient-reported outcomes of the combination of taselisib plus fulvestrant compared to placebo plus fulvestrant in ER +, HER2 postmenopausal women with locally advanced or metastatic breast cancer in which the disease has returned or has become progressively during or after treatment with an aromatase inhibitor",double blind/blinded;efficacy;multiple arm;pharmacokinetics;placebo control;randomized;safety,"Postmenopausal women with histologically or cytologically confirmed locally advanced or metastatic ER positive breast cancer
+Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1
+Participants for whom endocrine therapy (example [e.g.], fulvestrant) is recommended and treatment with cytotoxic chemotherapy is not indicated at time of entry into the study
+Radiologic/objective evidence of recurrence or progression to the most recent systemic therapy for breast cancer
+Radiologic/objective evidence of breast cancer recurrence or progression while on or within 12 months of the end of adjuvant treatment with an AI, or progression while on or within 1 month of the end of prior AI treatment for locally advanced or metastatic breast cancer
+Measurable disease via RECIST v1.1 or non-measurable, evaluable disease with at least one evaluable bone lesion via RECIST v1.1
+Consent to provide a formalin-fixed, paraffin-embedded (FFPE) tumor tissue block (preferred) or a minimum of 20 (25 preferred) freshly cut unstained tumor slides from the most recently collected, available tumor tissue for PIK3CA-mutation testing
+A valid cobas PIK3CA mutation result by central testing is required
+Adequate hematologic and end-organ function within 28 days prior to treatment initiation
+
+Can and willing to provide written informed consent and follow the research protocol.
+Age >or= 18 years old.
+The postmenopausal status is any of the following: age >or= 60 years or age < 60 years, according to the recorded follicle stimulating hormone and estradiol levels in the postmenopausal range, and without chemotherapy, tamoxifen, tormi In the case of fen or ovarian suppression therapy, 12 months of menopause was defined to define the previous bilateral oophorectomy for menopause (at least 28 days before the first fluvisner treatment on Day 1 and Day 1).
+All patients were required to have a valid PIK3CA gene mutation detected by the central laboratory's cobas method (eg, patients with a PIK3CA gene mutation result of ""invalid"" or ""failure"" cannot be enrolled in the study). The status of 120 PIK3CA is ""wild"". After completion of the enrollment of breast cancer patients with type (no mutation detected), all remaining enrolled patients must have a breast cancer specimen with a positive PIK3CA mutation for inclusion in the study.
+Adequate hematology and end-organ function, as defined by the following laboratory results within the first cycle, 28 days prior to day 1: ANC >or= 1500 µL (1.5 × 10^9 / L), platelet count >or= 1 100,000 µL (100 × 10^9/L), hemoglobin >or= 1 9.0 g/dL (90 g/L), total bilirubin = 1.5 times normal upper limit (ULN), but in patients with previous Gilbert syndrome, total bilirubin <or= 3 Mg/dL, aspartate aminotransferase and alanine aminotransferase <or= 1.5 times the upper limit of normal, except for the following cases: Confirmed patients with liver metastasis: aspartate aminotransferase and / or alanine aminotransfer Enzyme <or= 5.0 times normal upper limit, serum creatinine <or= 1.5 times normal upper limit or creatinine clearance >or= 50 mL/min estimated according to Cockroft-Gault glomerular filtration formula, INR < 1.5 and aPTT (or PTT) < 1.5 times normal upper limit For patients requiring anticoagulation therapy, stable INR <or= 2.5.
+Fasting blood glucose <or= 125 mg/dL (6.94 mmol/L).",2,taselisib (tablet),fulvestrant (IM); taselisib (tablet),"Anticancer, hormonal;Immunosuppressant;Menstruation disorders; Anticancer, other",631.0,600,0.94,68.6,19.97,0.71,11.45,11.02,0.43,0.29,0.05,0.84,0.11,0.0,60.0,0.0,19.0,0.0,0.0,513.0,0.0,0.1,0.0,0.03,0.0,0.0,0.81
+1513,GO30182,"A PHASE III, OPEN-LABEL, MULTICENTER, THREE-ARM, RANDOMIZED STUDY TO INVESTIGATE THE EFFICACY AND SAFETY OF COBIMETINIB PLUS ATEZOLIZUMAB AND ATEZOLIZUMAB MONOTHERAPY VS. REGORAFENIB IN PATIENTS WITH PREVIOUSLY TREATED UNRESECTABLE LOCALLY ADVANCED OR METASTATIC COLORECTAL ADENOCARCINOMA",Phase 3 cobimetinib in combination with atezolizumab vs. regorafenib in metastatic colorectal,COTEZO IMblaze370,Clinical Closure,1,Phase 3,Phase III,Interventional,ONC,ONC - ONCOLOGY & HEMATOLOGY,ONC,Colorectal Cancer,mCRC,Multi-Country Study,ACTIVE CONTROLLED,Randomized,Yes,Open Label,PDG,No,13,"To investigate efficacy and safety of cobimetinib plus atezolizumab and atezolizumab monotherapy versus regorafenib in participants with unresectable locally advanced or metastatic colorectal adenocarcinoma
+
+To compare regorafenib, a standard of care therapy in unresectable locally advanced or metastatic colorectal cancer (CRC), to cobimetinib plus atezolizumab and atezolizumab monotherapy",active comparator;efficacy;immunogenicity;multiple arm;open label;pharmacodynamics;pharmacokinetics;randomized;safety,"Disease-specific inclusion criteria:
+Histologically confirmed adenocarcinoma originating from the colon or rectum (Stage 4 American Joint Committee on Cancer [AJCC] 7th edition)
+Experienced disease progression or was intolerant to at least two systemic chemotherapy regimens for metastatic colorectal cancer that must have included fluroropyrimidines, irinotecan, and oxaliplatin; adjuvant regimen can be considered as one chemotherapy regimen for metastatic disease if the participant had disease recurrence within 6 months of completion; disease progression must have occurred within 3 months of the last systemic therapy administration
+General inclusion criteria:
+Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1
+Anticipated life expectancy greater than or equal to (> or =) 3 month
+Adequate hematologic and end organ function
+Women of childbearing potential must agree to appropriately use an effective form of contraception (failure rate of less than [<] 1 percent [%] per year) during the treatment period, within 5 months after the last dose of atezolizumab, and within 3 months after the last dose of cobimetinib and regorafenib
+Men must agree not to donate sperm or have intercourse with a female partner without using appropriate barrier contraception during the treatment period and for 3 months after the last dose of either cobimetinib or regorafenib
+Provide an archival or newly obtained tumor tissue sample
+
+Patients who have received prior anti-angiogenic therapy (e.g., bevacizumab) and/or anti epidermal growth factor receptor therapy (e.g., cetuximab) are eligible.
+Patients must have had documented disease progression within 3 months of the last systemic therapy administration. 
+Patients who were intolerant to prior systemic chemotherapy regimens are eligible if there is documented evidence of clinically significant intolerance despite adequate supportive measures. 
+For patients who had disease recurrence within 6 months of completing adjuvant chemotherapy, the adjuvant regimen can be considered as one chemotherapy regimen for metastatic disease.
+General inclusion criteria:
+Signed Informed Consent Form
+Age > or = 18 years
+In the investigator’s judgment, patient is able to comply with the requirements and assessments of the study protocol
+Eastern Cooperative Oncology Group performance status of 0 or 1
+Anticipated life expectancy > or = 3 months
+Able to comply with the requirements and assessments of the study protocol
+Adequate hematologic and end organ function, defined by the following laboratory results obtained within 14 days prior to first dose of study drug treatment:
+Hemoglobin > or = 9 g/dL, platelet count = 100,000/mm3, ANC > or = 1500/mm3
+Creatinine clearance > or = 30 mL/min
+Amylase and lipase < or = 1.5 x the upper limit of normal (ULN) 
+Serum bilirubin < or = 1.5x ULN; patients with known Gilbert’s disease may have a bilirubin < or = 3.0x ULN
+AST, ALT, and alkaline phosphatase (ALP) < or = 2.5 ULN with the following exceptions:
+a)Patients with documented liver metastases: AST and/or ALT < or = 5 x ULN
+b)Patients with documented liver or bone metastases: ALP < or = 5 x ULN
+INR and PTT < or = 1.5 x ULN. Patients who are on therapeutic doses of anti coagulants are eligible if they are on a stable dose of anti-coagulant for 28 days with stable INR and PTT values. 
+Women of childbearing potential must agree to appropriately use an effective form of contraception (failure rate of < 1% per year) during the treatment period and for 3 months after the last dose of study drug
+A woman of childbearing potential is defined as a sexually mature woman without prior oophorectomy or hysterectomy who have had menses within the last 12 months. 
+A woman is not considered to be of childbearing potential if she has become amenorrheic for > 12 months and has a follicle stimulating hormone level >or= 40 IU/L. 
+Available and adequate baseline tumor tissue sample (archival or newly obtained biopsy)",3,cobimetinib (oral tablet),atezolizumab; cobimetinib (oral tablet); regorafenib,"Anticancer, immunological;Monoclonal antibody, human; Anticancer, other; Anticancer, other",363.0,406,1.0,62.03,45.95,0.26,10.03,9.61,0.42,0.74,0.08,0.38,0.54,0.0,30.0,0.0,5.0,0.0,0.0,328.0,0.0,0.08,0.0,0.01,0.0,0.0,0.9
+1525,ML40471,"An Open-Label, Single arm, Multicenter Study to investigate the Safety and Efficacy of atezolizumab (tecentriq)  in Previously-Treated patients With Locally Advanced or Metastatic Non-small Cell LunG Cancer",Atezolizumab's long-term safety in previously-treated advanced non-small cell lung cancer,,Active,0,Phase 3,Phase III,Interventional,ONC,ONC - ONCOLOGY,ONC,Non-Small Cell Lung Cancer,NSCLC,Single -Country Study,NON-CONTROLLED,Nonrandomized,Yes,Open Label,LMA,No,1,"To study the safety and efficacy of atezolizumab treatment in patients with Stage IIIb or Stage IV non-small cell lung cancer (NSCLC) who have progressed following standard systemic chemotherapy (including if given in combination with anti-PD-1 therapy or after anti-PD-1 as monotherapy).
+
+To evaluate the long-term safety of Atezolizumab in patients with advanced NSCLC. 
+To evaluate the effectiveness of Atezolizumab in patients with advanced NSCLC.
+Further evaluate the safety and efficacy of Atezolizumab in patients with advanced NSCLC. 
+Evaluation and evaluation of PD The role of L1 and other biomarkers in the basic biology of advanced NSCLC",efficacy;open label;safety;single arm,"Histologically or cytologically documented Stage IIIb or Stage IV NSCLC that has progressed following standard systemic chemotherapy (including if given in combination with anti-PD-1 therapy or after anti-PD-1 as monotherapy). Patients with a previously detected EGFR mutation or ALK fusion oncogene will be excluded from this study. Overall, patients should not have received more than two lines of systemic chemotherapy. Patients who have discontinued first-line or second-line systemic chemotherapy, targeted therapy, or anti-PD-1 therapy due to intolerance are also eligible.
+The last dose of prior systemic anticancer therapy must have been administered > or = 21 days prior to the first study treatment.
+The last dose of prior anti-PD-1 therapy must have been administered
+Measurable disease, as defined by Response Evaluation Criteria for Solid Tumors, Version 1.1 (RECIST v1.1)
+Patients with asymptomatic CNS metastases (treated or untreated), as determined by CT or MRI evaluation during screening and prior radiographic evaluation, are eligible
+ECOG performance status 0, 1, or 2
+Life expectancy > or = 12 weeks
+Adequate hematologic and end-organ function
+For women of childbearing potential: agreement to remain abstinent or use contraceptive methods that result in a failure rate of < 1% per year during the treatment period and for at least 5 months after the last dose of atezolizumab
+Patients must have recovered from all acute toxicities from previous therapy, excluding alopecia and toxicities related to prior anti-PD-1-therapy
+
+Adequate hematology and end-organ function, as defined by the following laboratory findings, should be obtained within 2 weeks prior to the first study: – Absolute neutrophil count > or =1500 cells/µL (in the first study) No granulocyte colony-stimulating factor support therapy was received within 2 weeks prior to drug treatment) – White blood cell count > 2500/µL – Lymphocyte count > or = 500/µL – Platelet count > or = 100,000/µL (within 2 weeks prior to the first study drug treatment) No transfusion therapy) – Hemoglobin > or = 9.0g/dL (to achieve this standard, patients can receive blood transfusions or receive erythropoietin treatment) – Aspartate aminotransferase (AST), alanine aminotransferase (ALT) And alkaline phosphatase < or = 2.5 × normal upper limit (ULN), except for the following cases: Patients with confirmed liver metastases: AST and / or ALT < or = 5 × ULN Patients with confirmed liver or bone metastases: alkaline phosphatase < or = 5 × ULN – serum bilirubin < or = 1.5 × ULN. Patients with Gilbert syndrome and serum bilirubin levels < 3 x ULN are known to be enrolled. – Creatinine clearance > or =15 mL/min (data calculated by the Cockcroft-Gault formula) – International normalized ratio (INR) and activated partial thromboplastin time (aPTT) < or = 1.5 × ULN. This standard only applies to patients who are currently not receiving anticoagulant therapy; for patients currently receiving anticoagulant therapy, stable dose anticoagulant therapy is required.
+For women with fertility: agree to maintain abstinence (restricted heterosexual intercourse) or take an annual failure rate of <1% during the treatment period and at least 5 months after the last Atezolizumab. – if the female patient is in the late menopause and has not reached full menopause (continuous no menstrual time > or = 12 months, and no other reasons than menopause), and has not undergone sterilization (extraction of the ovaries and / or uterus), then The patient is considered to have fertility – contraceptives with an annual contraceptive failure rate of <1% include bilateral tubal ligation, male sterilization, and established effective hormonal contraceptives that inhibit ovulation, hormone-releasing intrauterine devices, and copper Intrauterine device – The reliability of abstinence should be evaluated relative to the duration of clinical trials, as well as patient preferences and daily life patterns. Regular abstinence (eg, calendar,",1,atezolizumab,atezolizumab,"Anticancer, immunological;Monoclonal antibody, human",72.0,85,0.01,,,0.17,,,,0.83,0.0,0.58,0.42,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.01,0.0,0.0,0.0,0.0
+1665,ML29538,An Open-Label Study of Obinutuzumab (GA101) Plus Bendamustine in Patients with Previously Untreated Chronic Lymphocytic Leukemia,Gazyva (GA101) Plus Benda CLL,,Active,1,Phase 2,Phase II,Interventional,ONC,ONC - ONCOLOGY & HEMATOLOGY,ONC,Lymphoid Leukaemia,CLL,Single -Country Study,NON-CONTROLLED,Nonrandomized,Yes,Open Label,LMA,No,1,"To evaluate the safety and efficacy of an obinutuzumab + bendamustine (BG) induction therapy in patients with previously untreated chronic lymphocytic leukemia (CLL).
+
+as per Euctr
+To evaluate the overall response rate (ORR) after treatment with obinutuzumab and bendamustine, in patients with refractory or relapsed chronic lymphocytic leukemia (CLL).",efficacy;open label;safety;single arm,"Participants must satisfy one of the criteria for treatment initiation, as outlined in the iwCLL NCI-WG guidelines. The criteria include: 
+(a) Evidence of progressive marrow failure as manifested by the development of, or worsening of, anemia and/or thrombocytopenia,
+(b) Massive (i.e., greater than or equal to [>or  =] 6 centimeters [cm] below the left costal margin) or progressive or symptomatic splenomegaly,
+(c) Massive nodes (i.e., >or = 10 cm in longest diameter) or progressive or symptomatic lymphadenopathy, 
+(d) Progressive lymphocytosis with an increase of greater than (>) 50 percent (%) over a 2-month period or lymphocyte doubling time (LDT) of less than (<) 6 months, LDT may be obtained by linear regression extrapolation of absolute lymphocyte counts (ALC) obtained at intervals of 2 weeks over an observation period of 2-3 months. In patients with initial blood lymphocyte counts of less than 30 x 109/L (30,000/µL), LDT should not be used as a single parameter to define indication for the treatment. In addition, factors contributing to lymphocytosis or lymphadenopathy other than CLL (eg, infections) should be excluded,	
+(e) Autoimmune anemia and/or thrombocytopenia that is poorly responsive to corticosteroids or other standard therapy, 
+(f) Constitutional symptoms, defined as any one or more of the following disease-related symptoms or signs: unintentional weight loss of > =10% within the previous 6 months, significant fatigue (i.e., Eastern Cooperative Oncology Group Performance Status [ECOG PS] of 2 or worse or the inability to work or perform usual activities), fevers higher than 100.5 degrees Fahrenheit (°F)/38.0 degrees Celsius (°C) for > = 2 weeks without other evidence of infection, or night sweats for > 1 month without evidence of infection
+Absolute neutrophil count (ANC) > =1.5 × 10^9 per liter (/L) and platelets > =75 × 10^9/L unless cytopenia is caused by the underlying disease, i.e., no evidence of additional bone marrow dysfunction (e.g., myelodysplastic syndrome, hypoplastic bone marrow)
+Life expectancy > 6 months
+ECOG PS of 0, 1, or 2
+Willing to use acceptable contraceptive measures as defined by the protocol during and at least for 6 months (male participants) or 12 months (female participants) after the last dose of study drug
+Have documented CD20+ B-CLL according to NCI criteria (see Appendix 2)
+Refractory CLL (i.e. treatment failure or progression within 6 months of treatment) or relapse CLL (i.e. patient who met criteria for CR or PR, but progressed beyond 6 months post-treatment).
+At least 1 prior purine analogue or bendamustine containing therapy
+Creatinine clearance > or = 30ml/min or both 
+Hemoglobin > 9 g/dL; absolute neutrophil count (ANC) > or = 1.5 x 109/L and platelets (Plt) > or = 75 x 109/L unless cytopenia is caused by the underlying disease, i.e. no evidence of additional bone marrow dysfunction (e.g. myelodysplastic syndrome [MDS])",2,obinutuzumab,bendamustine; obinutuzumab,"Anticancer, alkylating;Immunosuppressant; Anticancer, immunological;Immunosuppressant;Monoclonal antibody, humanized;Urological",102.0,156,0.88,3.46,3.02,0.13,,,,0.87,,,,0.0,0.0,0.0,0.0,0.0,0.0,90.0,0.0,0.0,0.0,0.0,0.0,0.0,0.88
+1848,GO28625,"A PHASE II, MULTICENTER, SINGLE-ARM STUDY OF ATEZOLIZUMAB IN PATIENTS WITH PD-L1-POSITIVE LOCALLY ADVANCED OR METASTATIC NON-SMALL CELL LUNG CANCER [FIR]",Phase II Trial of Atezolizumab in NSCLC,FIR,Clinical Closure,1,Phase 2,Phase II,Interventional,ONC,ONC - ONCOLOGY & HEMATOLOGY,ONC,Malignant Neoplasm Of Bronchus And Lung,NSCLC 2L,Multi-Country Study,NON-CONTROLLED,,Yes,Open Label,gRED,Yes,9,To evaluate the efficacy and safety of MPDL3280A in patients with PD-L1-positive locally advanced or metastatic non-small cell lung cancer (NSCLC) as measured by investigator-assessed ORR according to modified RECIST,efficacy;fixed dose;immunogenicity;open label;pharmacodynamics;pharmacokinetics;randomized;safety;single arm,"Ages Eligible for Study: 18 Years and older
+Genders Eligible for Study: Both
+
+Stage IIIB (not eligible for definitive chemoradiotherapy), Stage IV, or recurrent non-small cell lung cancer (NSCLC)
+PD-L1-positive status as determined by an immunohistochemistry assay performed by a central laboratory. A positive result in chemotherapy, chemoradiation of the tumor sample biopsy will satisfy the eligibility criterion. Representative tumor specimens in paraffin blocks or at least 15 unstained slides, with an associated pathology report, must be submitted for determination of PDL1 status prior to study enrollment. If fewer than 15 slides are available, the patient may still be eligible, upon discussion with the Medical Monitor.
+Eastern Cooperative Oncology group Performance Status of 0 or 1
+Life expectancy greater than or equal to 12 weeks
+Measurable disease, as defined by Response Evaluation Criteria in Solid Tumors Version 1.1
+Adequate hematologic and end organ function defined by the following laboratory results obtained within 14 days prior to the first study treatment:
+ANC = 1500 cells/mcL
+WBC counts > 2500/mcL and < 15,000/mcL
+Lymphocyte count = 500/mcL
+Platelet count = 100,000/mcL
+Haemoglobin = 9.0 g/dL
+Patients with tumours of predominantly squamous histology will comprise at least 50% of the study population in Cohort 1 and at least 25% of the population in Cohort 2.
+Patients with progressive disease following chemoradiotherapy must demonstrate progression outside the prior radiotherapy port.
+Patients may be transfused or receive erythropoietic treatment to meet this criterion.
+AST, ALT, and alkaline phosphatase = 2.5x the upper limit of normal (ULN), with the following exceptions:
+Patients with documented liver metastases: AST and/or ALT = 5 × ULN
+Patients with documented liver or bone metastases: alkaline phosphatase = 5 × ULN
+Serum bilirubin = 1.5 × ULN
+Patients with known Gilbert disease who have serum bilirubin level = 3 x ULN may be enrolled.
+INR and aPTT = 1.5 x ULN
+This applies only to patients who are not receiving therapeutic anticoagulation; patients receiving therapeutic anticoagulation should be on a stable dose.
+Creatinine clearance = 50 mL/min on the basis of the CKD-EPI formula
+Estimated glomerular filtration rate = 141 x min(SCr/k,1)a x max(SCr/k,1) -1.209 x 0.993 Age x [1.018 if female] x [1.159 if Black] where SCr is serum creatinine (mg/dL), k is 0.7 for females and 0.9 for males, a is 0.329 for females and -0.411 for males, min indicates the minimum of SCr/k or 1, and max indicates the maximum of SCr/k or 1.
+For female patients of childbearing potential and male patients with partners of childbearing potential, agreement to use a highly effective form of contraception and to continue its use for 6 months after the last dose of MPDL3280A
+Inclusion Criteria Unique to Cohort 1
+No prior chemotherapy for locally advanced or metastatic (i.e., Stage IIIB not eligible for definitive chemoradiotherapy, Stage IV, or recurrent) NSCLC
+For patients who received prior adjuvant/neoadjuvant chemotherapy or chemoradiation for NSCLC, a treatment-free interval > 6 months between the last treatment administration and the date of recurrence is required.
+Inclusion Criteria Unique to Cohorts 2 and 3
+Disease progression during or following prior platinum-based chemotherapy for locally advanced or metastatic (i.e., Stage IIIB not eligible for definitive chemoradiotherapy, Stage IV, or recurrent) NSCLC
+Patients with disease progression during or following platinum-based adjuvant/neoadjuvant chemotherapy or concurrent chemoradiation for non-small cell lung cancer (NSCLC) are eligible if = 6 months have elapsed between the last treatment administration and the date of recurrence.
+Patients with a known sensitizing mutation in the EGFR gene must also have experienced disease progression or intolerance to treatment with erlotinib, gefitinib, or another EGFR TKI approved for treatment of EGFR-mutant non-small cell lung cancer (NSCLC).
+",1,atezolizumab,atezolizumab,"Anticancer, immunological;Monoclonal antibody, human",138.0,175,1.0,,,0.27,14.08,12.75,1.33,0.73,,,,0.0,10.0,0.0,4.0,0.0,15.0,109.0,0.0,0.07,0.0,0.03,0.0,0.11,0.79
+2004,CO39083,"A PHASE Ib OPEN-LABEL STUDY EVALUATING THE SAFETY, TOLERABILITY AND PHARMACOKINETICS OF COBIMETINIB IN COMBINATION WITH BEVACIZUMAB AND IMMUNOTHERAPY WHEN ADMINISTERED IN PATIENTS WITH GASTROINTESTINAL AND OTHER TUMORS","A PHASE Ib OPEN-LABEL STUDY EVALUATING THE SAFETY, TOLERABILITY AND PK OF COBIMETINIB",,Clinical Closure,1,Phase 1,Phase Ib,Interventional,ONC,ONC - ONCOLOGY,ONC,Colorectal Cancer,CRC,Multi-Country Study,NON-CONTROLLED,Nonrandomized,Yes,Open Label,PDG,Yes,3,"To assess the safety, tolerability, and pharmacokinetics of oral cobimetinib with intravenous (IV) atezolizumab and bevacizumab in participants with metastatic colorectal cancer (mCRC) who have received and progressed on at least one prior line of therapy that contained a fluoropyrimidine and oxaliplatin or irinotecan.",efficacy;immunogenicity;multiple arm;open label;pharmacokinetics;safety,"Signed Informed Consent Form
+Age > or = 18 years
+Able to comply with the study protocol, in the investigator’s judgment
+Eastern Cooperative Oncology Group performance status of 0 or 1
+Histologically confirmed unresectable metastatic colorectal adenocarcinoma
+Progression on a prior line of therapy for unresectable metastatic colorectal adenocarcinoma that contained a fluoropyrimidine and oxaliplatin or irinotecan. Adjuvant or neoadjuvant chemotherapy is allowed, provided it is completed at least 12 months before start of study treatment.
+Measurable disease, according to RECIST v1.1. Note that lesions intended to be biopsied should not be target lesions.
+Adequate hematologic and end organ function, defined by the following laboratory results obtained within 14 days prior to first dose of study drug treatment: A) WBC > or = 2.5 and < or = 15.0 × 10^9/L; B) ANC > or = 1.5 × 10^9/L; C) Platelet count > or = 100 × 10^9/L; D) Hemoglobin > or = 9 g/dL; E) Albumin > or = 2.5 g/dL; F) Serum bilirubin < or = 1.5 the upper limit of normal (ULN); patients with known Gilbert’s disease may have a bilirubin < or = 3.0 × ULN; G) INR and PTT < or = 1.5 × ULN; amylase and lipase < or = 1.5 × ULN; H) AST, ALT, and alkaline phosphatase (ALP) < or = 3 × ULN with the following exceptions: 1)Patients with documented liver metastases: AST and/or ALT < or = 5 × ULN; 2)Patients with documented liver or bone metastases: ALP < or = 5 × ULN.
+Creatinine clearance > or = 30 mL/min
+Ability and capacity to comply with the study and follow-up procedure
+For women of childbearing potential: agreement to remain abstinent (refrain from heterosexual intercourse) or use contraceptive methods that result in a failure rate of < 1% per year during the treatment period and for at least 180 days after the last study treatment; A) A woman is considered to be of childbearing potential if she is postmenarcheal, has not reached a postmenopausal state (> or = 12 continuous months of amenorrhea with no identified cause other than menopause), and has not undergone surgical sterilization (removal of ovaries and/or uterus).
+Continuation of criteria above: 
+Examples of contraceptive methods with a failure rate of < 1% per year include bilateral tubal ligation, male sterilization, hormonal contraceptives that inhibit ovulation, hormone-releasing intrauterine devices and copper intrauterine devices; 
+The reliability of sexual abstinence should be evaluated in relation to the duration of the clinical trial and the preferred and usual lifestyle of the patient. Periodic abstinence (e.g., calendar, ovulation, symptothermal, or postovulation methods) and withdrawal are not acceptable methods of contraception.
+For men: agreement to remain abstinent (refrain from heterosexual intercourse) or use contraceptive measures and agreement to refrain from donating sperm, as defined below: A) With female partners of childbearing potential or pregnant female partners, men must remain abstinent or use a condom during the treatment period and for at least 180 days after the last dose of study treatment. Men must refrain from donating sperm during this same period.; B) The reliability of sexual abstinence should be evaluated in relation to the duration of the clinical trial and the preferred and usual lifestyle of the patient. Periodic abstinence (e.g., calendar, ovulation, symptothermal, or postovulation methods) and withdrawal are not acceptable methods of contraception.
+Biopsy Cohort: Meet all inclusion criteria above
+Biopsy Cohort: Must be bevacizumab naïve or received the last bevacizumab treatment at least 12 months prior to Cycle 1 Day 1
+Biopsy Cohort: According to the investigator’s judgment (based on patient’s general status, concomitant medical conditions and accessibility of the lesions to be biopsied) the planned biopsies would not expose patients to substantially increased risk of complications",3,cobimetinib,atezolizumab; bevacizumab; cobimetinib,"Anticancer, immunological;Monoclonal antibody, human; Anticancer, immunological;Monoclonal antibody, humanized; Anticancer, other",51.0,30,1.0,3.86,2.52,0.35,16.84,16.2,0.65,0.65,,,,0.0,4.0,0.0,0.0,0.0,22.0,25.0,0.0,0.08,0.0,0.0,0.0,0.43,0.49
+2107,BO22334,A phase III study of SC rituximab in combination with CHOP/CVP vs IV rituximab in combination with CHOP/CVP in previously untreated pats with follicular lymphoma followed by maintenance treatment.,Ph III of MabThera SC w CHOP or CVP,SABRINA,Clinical Closure,1,Phase 3,Phase III,Interventional,ONC,ONC - ONCOLOGY & HEMATOLOGY,ONC,Follicular [Nodular] Non-Hodgkin'S Lymphoma,CLL,Multi-Country Study,ACTIVE CONTROLLED,Randomized,Yes,Open Label,PDG,No,27,"To investigate the pharmacokinetics, efficacy and safety of rituximab SC versus rituximab IV in participants with previously untreated follicular non-Hodgkin's lymphoma. 
+To investigate the pharmacokinetics, efficacy and safety of rituximab SC in combination with CHOP or CVP versus rituximab IV in combination with CHOP or CVP in patients with previously untreated follicular lymphoma followed by maintenance treatment with either rituximab SC or rituximab IV.",active comparator;efficacy;immunogenicity;multiple arm;non inferiority;open label;pharmacodynamics;pharmacokinetics;randomized;safety,"Written informed consent and ability and willingness to comply with the visit schedule and assessments required by the protocol
+Histologically confirmed CD20-positive, follicular NHL grade 1, 2 or 3a, according to the WHO classification system. A tumor biopsy (lymph node, bone marrow, etc.) must have been performed within 4 months before study entry with material available for central review
+Patients that are previously untreated. Patients on watch and wait can enter the trial if a recent biopsy (obtained within the last 4 months) for central review is available
+Patients with at least one of the following signs and symptoms requiring treatment:
+Bulky disease
+B-symptoms
+Elevated serum LDH or 2-microglobulin
+Involvement of at least 3 nodal sites (each with a diameter greater than 3 cm)
+Symptomatic spleen enlargement
+Compressive syndrome
+Pleura/peritoneal effusion
+ECOG performance status of 0 2.
+Life expectancy of 6 months or more
+Bi dimensionally measurable disease
+A negative serum pregnancy test 1 week prior to treatment must be available both for pre menopausal women and for women who are <2 years after the onset of menopause, or within 14 days with a confirmatory urine pregnancy test within 1 week prior to study treatment start
+Adequate hematological function within 28 days prior to randomization (unless related to lymphoma infiltration of the bone marrow):
+Hb > or = 8.0 g/dL (5 mmol/L)
+Absolute neutrophil count (ANC) > or =  1.5 x 10^9/L
+Platelet count > or =  100 x 10^9/L 
+
+Cluster of differentiation 20 (CD20)-positive, follicular Non-Hodgkin's lymphoma grade 1, 2, 3a. A tumor biopsy must have been performed within 6 months before study entry with material available for central review.
+No prior treatment
+Eastern Cooperative Oncology Group (ECOG) performance status 0-2",6,"rituximab (SC), Halozyme","cyclophosphamide; doxorubicin; prednisone; rituximab (IV); rituximab (SC), Halozyme; vincristine","Anti-inflammatory;Antiarthritic, immunological;Anticancer, immunological;Antiparkinsonian;Antithrombotic, other;Dermatological;Haematological;Immunological, unspecified;Immunosuppressant;Monoclonal antibody, chimaeric;Multiple sclerosis treatment;Ophthalmological, other;Urological; Anti-inflammatory;Immunosuppressant; Anticancer, alkylating;Immunosuppressant; Anticancer, antibiotic; Anticancer, immunological;Monoclonal antibody, chimaeric;Reformulation, parenteral, other; Anticancer, other",410.0,397,0.21,16.64,13.93,0.16,12.85,12.15,0.7,0.84,0.06,0.42,0.52,0.0,25.0,0.0,16.0,0.0,0.0,44.0,0.0,0.06,0.0,0.04,0.0,0.0,0.11
+2126,GO01298,"AN OPEN-LABEL, MULTICENTER, PHASE Ib TRIAL OF GA101 IN COMBINATION WITH CHEMOTHERAPY IN PATIENTS WITH PREVIOUSLY UNTREATED CLL",Ph 1b- 1st Line CLL GA101 chemo combo safety study,GALTON,Clinical Closure,1,Phase 1,Phase Ib,Interventional,ONC,ONC - ONCOLOGY & HEMATOLOGY,ONC,Lymphoid Leukaemia,CLL,Single -Country Study,NON-CONTROLLED,,Yes,Open Label,PDG,No,1,"To investigate the safety and efficacy of GA101 administered in combination with chemotherapy (FC or bendamustine regimens) in patients with previously untreated CD20-positive B-CLL.
+To study the side effects and best dose of vorinostat when given together with fludarabine phosphate, cyclophosphamide, and rituximab and to see how well it works in treating patients with previously untreated B-cell chronic lymphocytic leukemia (CLL) or small lymphocytic lymphoma (SLL).",multiple arm;open label;pharmacodynamics;pharmacokinetics,"Ages Eligible for Study: 18 Years and older
+Genders Eligible for Study: Both 
+
+Confirmed diagnosis of CD20-positive B-CLL
+Rai Stage III/IV or Binet Stage C disease
+Rai Stage I/II or Binet Stage B disease that requires treatment
+Adequate baseline bone marrow function, unless there is clear evidence of extensive bone marrow involvement with tumor infiltration, myelodysplasia, or hypocellularity
+No previous treatment for CLL by chemotherapy, radiotherapy, or immunotherapy
+ECOG performance status of 0, 1, or 2
+Life expectancy of > 6 months",8,obinutuzumab,acetaminophen; bendamustine; cyclophosphamide; dexamethasone; fludarabine (IV); methylprednisolone suleptanate; obinutuzumab; undisclosed - antihistamine,"Anti-inflammatory;Antiallergic, non-asthma; Anti-inflammatory;Anticancer, other;Immunosuppressant; Antiasthma;Immunosuppressant; Anticancer, alkylating;Immunosuppressant; Anticancer, alkylating;Immunosuppressant; Anticancer, antimetabolite; Anticancer, immunological;Immunosuppressant;Monoclonal antibody, humanized;Urological",41.0,54,0.15,2.96,2.58,0.13,13.27,12.41,0.85,0.87,0.25,0.25,0.5,0.0,1.0,1.0,2.0,0.0,0.0,2.0,0.0,0.02,0.02,0.05,0.0,0.0,0.05
+2200,MO27782,"A two-cohort, open-label, multicenter Phase II trial assessing the efficacy and safety of pertuzumab given in combination with trastuzumab and vinorelbine in first line patients with HER2-positive advanced (metastatic or locally advanced) breast cancer","VELVET: Pertu+/-Trastu + Vino, 1st line Her2+ mBC",VELVET,Clinical Closure,1,Phase 2,Phase II,Interventional,ONC,ONC - ONCOLOGY & HEMATOLOGY,ONC,Breast Cancer,mBC,Multi-Country Study,NON-CONTROLLED,Nonrandomized,Yes,Open Label,PDMA,No,7,"To assess the safety and efficacy of pertuzumab given in combination with Herceptin (trastuzumab) and vinorelbine in first line in patients with metastatic or locally advanced HER2-positive breast cancer. 
+To investigate whether a regimen of pertuzumab and trastuzumab with vinorelbine can improve on the previously observed efficacy with trastuzumab and vinorelbine as a result of a more comprehensive blockade of HER2 signaling. 
+To assess the feasibility of coadministration of pertuzumab and trastuzumab from the same infusion bag in order to reduce infusion times.",efficacy;multiple arm;open label;safety,"Signed written informed consent approved by the relevant Institutional Ethical Review Board (IRB).
+Female or male patients aged 18 years or older.
+Histologically or cytologically confirmed and documented adenocarcinoma of the breast with metastatic or locally advanced disease not amenable to curative resection.
+HER2-positive (defined as either immunohistochemistry
+[IHC] 3+ or in situ hybridization [ISH] positive) as assessed by local laboratory on primary or metastatic tumor (ISH positivity is defined as a ratio of 2.0 or greater for the number of HER2 gene copies to the number of signals for CEP17, or for single probe tests, a HER2 gene count greater than 4).
+At least one measurable lesion and/or non-measurable disease evaluable according to Response Evaluation Criteria In Solid Tumors (RECIST) version 1.1 (Eisenhauer et al. 2009).
+Eastern Cooperative Oncology Group (ECOG) performance status 0 or 1.
+Left ventricular ejection fraction (LVEF) of at least 55%. 
+Negative pregnancy test in women of childbearing potential (premenopausal or less than 12 months of amenorrhea post-menopause, and who have not undergone surgical sterilization).
+For women of childbearing potential who are sexually active, agreement to use a highly effective, nonhormonal form of contraception or two effective forms of non-hormonal contraception during and for at least 6 months post-study treatment.
+Fertile males willing and able to use effective nonhormonal means of contraception (barrier method of contraception in conjunction with spermicidal jelly, or surgical sterilization) during and for at least 6 months post-study treatment.
+Life expectancy of at least 12 weeks.",3,pertuzumab,pertuzumab; trastuzumab (IV); vinorelbine,"Anticancer, immunological;Monoclonal antibody, humanized; Anticancer, immunological;Monoclonal antibody, humanized; Anticancer, other",214.0,211,0.21,11.89,11.62,0.02,,,,0.98,0.0,0.33,0.67,4.0,0.0,2.0,2.0,0.0,0.0,36.0,0.02,0.0,0.01,0.01,0.0,0.0,0.17
+2225,ML29167,PHASE II TRIAL TO EVALUATE THE EFFICACY OF OBINUTUZUMAB  (RO5072759) + BENDAMUSTINE TREATMENT IN PATIENTS WITH REFRACTORY OR RELAPSED CHRONIC LYMPHOCYTIC LEUKEMIA,Efficacy Obinutuzumab+ Benda in refract/relaps CLL,,Clinical Closure,1,Phase 2,Phase II,Interventional,ONC,ONC - ONCOLOGY,ONC,Lymphoid Leukaemia,CLL,Single -Country Study,NON-CONTROLLED,Nonrandomized,Yes,Open Label,LMA,No,1,"To evaluate the safety and efficacy of an obinutuzumab + bendamustine (BG) induction therapy in patients with previously untreated chronic lymphocytic leukemia (CLL).
+
+as per Euctr
+To evaluate the overall response rate (ORR) after treatment with obinutuzumab and bendamustine, in patients with refractory or relapsed chronic lymphocytic leukemia (CLL).",efficacy;open label;safety;single arm,"Participants must satisfy one of the criteria for treatment initiation, as outlined in the iwCLL NCI-WG guidelines. The criteria include: 
+(a) Evidence of progressive marrow failure as manifested by the development of, or worsening of, anemia and/or thrombocytopenia,
+(b) Massive (i.e., greater than or equal to [>or  =] 6 centimeters [cm] below the left costal margin) or progressive or symptomatic splenomegaly,
+(c) Massive nodes (i.e., >or = 10 cm in longest diameter) or progressive or symptomatic lymphadenopathy, 
+(d) Progressive lymphocytosis with an increase of greater than (>) 50 percent (%) over a 2-month period or lymphocyte doubling time (LDT) of less than (<) 6 months, LDT may be obtained by linear regression extrapolation of absolute lymphocyte counts (ALC) obtained at intervals of 2 weeks over an observation period of 2-3 months. In patients with initial blood lymphocyte counts of less than 30 x 109/L (30,000/µL), LDT should not be used as a single parameter to define indication for the treatment. In addition, factors contributing to lymphocytosis or lymphadenopathy other than CLL (eg, infections) should be excluded,	
+(e) Autoimmune anemia and/or thrombocytopenia that is poorly responsive to corticosteroids or other standard therapy, 
+(f) Constitutional symptoms, defined as any one or more of the following disease-related symptoms or signs: unintentional weight loss of > =10% within the previous 6 months, significant fatigue (i.e., Eastern Cooperative Oncology Group Performance Status [ECOG PS] of 2 or worse or the inability to work or perform usual activities), fevers higher than 100.5 degrees Fahrenheit (°F)/38.0 degrees Celsius (°C) for > = 2 weeks without other evidence of infection, or night sweats for > 1 month without evidence of infection
+Absolute neutrophil count (ANC) > =1.5 × 10^9 per liter (/L) and platelets > =75 × 10^9/L unless cytopenia is caused by the underlying disease, i.e., no evidence of additional bone marrow dysfunction (e.g., myelodysplastic syndrome, hypoplastic bone marrow)
+Life expectancy > 6 months
+ECOG PS of 0, 1, or 2
+Willing to use acceptable contraceptive measures as defined by the protocol during and at least for 6 months (male participants) or 12 months (female participants) after the last dose of study drug
+Have documented CD20+ B-CLL according to NCI criteria (see Appendix 2)
+Refractory CLL (i.e. treatment failure or progression within 6 months of treatment) or relapse CLL (i.e. patient who met criteria for CR or PR, but progressed beyond 6 months post-treatment).
+At least 1 prior purine analogue or bendamustine containing therapy
+Creatinine clearance > or = 30ml/min or both 
+Hemoglobin > 9 g/dL; absolute neutrophil count (ANC) > or = 1.5 x 109/L and platelets (Plt) > or = 75 x 109/L unless cytopenia is caused by the underlying disease, i.e. no evidence of additional bone marrow dysfunction (e.g. myelodysplastic syndrome [MDS])",2,obinutuzumab,bendamustine; obinutuzumab,"Anticancer, alkylating;Immunosuppressant; Anticancer, immunological;Immunosuppressant;Monoclonal antibody, humanized;Urological",72.0,46,0.04,3.0,2.73,0.09,,,,0.91,0.0,0.33,0.67,0.0,0.0,1.0,0.0,0.0,0.0,2.0,0.0,0.0,0.01,0.0,0.0,0.0,0.03

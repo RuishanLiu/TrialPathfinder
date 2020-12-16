@@ -1,0 +1,68 @@
+,Unnamed: 0,Unnamed: 0.1,NCT Number,drugs_in_arm1,drugs_in_arm2,arm1_has_drug_combo,arm2_has_drug_combo,Total drugs_in_arm1,1L drugs_in_arm1,2L drugs_in_arm1,Total drugs_in_arm2,1L drugs_in_arm2,2L drugs_in_arm2
+6,6,6,NCT03801304,atezolizumab,vinorelbine,False,False,623,142,295,1072,194,235
+10,10,10,NCT02613507,nivolumab,docetaxel,False,False,7554,1760,3906,2102,330,975
+12,12,12,NCT02075840,alectinib,crizotinib,False,False,379,144,117,763,525,153
+17,17,17,NCT00391274,pemetrexed,docetaxel,False,False,2670,1037,1126,2102,330,975
+19,19,19,NCT01903993,docetaxel,atezolizumab,False,False,2102,330,975,623,142,295
+20,20,20,NCT00840125,erlotinib,docetaxel,False,False,4655,2945,1026,2102,330,975
+21,21,21,NCT00550173,pemetrexed,erlotinib,False,False,2670,1037,1126,4655,2945,1026
+22,22,22,NCT00441922,docetaxel,vinorelbine,False,False,2102,330,975,1072,194,235
+25,25,25,NCT00383331,pemetrexed,gemcitabine,False,False,2670,1037,1126,2264,407,781
+28,28,28,NCT00874419,erlotinib,"gemcitabine, carboplatin",False,True,4655,2945,1026,1860,1162,429
+29,29,29,NCT01905657,pembrolizumab,docetaxel,False,False,3453,2259,836,2102,330,975
+33,33,33,NCT00701558,erlotinib,gemcitabine,False,False,4655,2945,1026,2264,407,781
+34,34,34,NCT01642004,nivolumab,docetaxel,False,False,7554,1760,3906,2102,330,975
+35,35,35,NCT02008227,atezolizumab,docetaxel,False,False,623,142,295,2102,330,975
+37,37,37,NCT00518011,erlotinib,gemcitabine,False,False,4655,2945,1026,2264,407,781
+38,38,38,NCT02838420,alectinib,crizotinib,False,False,379,144,117,763,525,153
+44,44,44,NCT02488694,afatinib,pemetrexed,False,False,1046,502,334,2670,1037,1126
+46,46,46,NCT01801111,erlotinib,alectinib,False,False,4655,2945,1026,379,144,117
+47,47,47,NCT02967133,nivolumab,nab-paclitaxel,False,False,7554,1760,3906,494,157,166
+51,51,51,NCT01004601,docetaxel,pemetrexed,False,False,2102,330,975,2670,1037,1126
+52,52,52,NCT00684099,docetaxel,pemetrexed,False,False,2102,330,975,2670,1037,1126
+55,55,55,NCT02405910,nab-paclitaxel,gemcitabine,False,False,494,157,166,2264,407,781
+56,56,56,NCT02422381,pembrolizumab,gemcitabine,False,False,3453,2259,836,2264,407,781
+58,58,58,NCT00442026,docetaxel,gemcitabine,False,False,2102,330,975,2264,407,781
+59,59,59,NCT00965731,erlotinib,crizotinib,False,False,4655,2945,1026,763,525,153
+60,60,60,NCT00637910,erlotinib,docetaxel,False,False,4655,2945,1026,2102,330,975
+67,67,67,NCT01673867,nivolumab,docetaxel,False,False,7554,1760,3906,2102,330,975
+72,72,72,NCT02574598,pembrolizumab,docetaxel,False,False,3453,2259,836,2102,330,975
+73,73,73,NCT02864394,pembrolizumab,docetaxel,False,False,3453,2259,836,2102,330,975
+79,79,79,NCT00193414,pemetrexed,gemcitabine,False,False,2670,1037,1126,2264,407,781
+81,81,81,NCT02036359,erlotinib,docetaxel,False,False,4655,2945,1026,2102,330,975
+83,83,83,NCT00061451,pemetrexed,gemcitabine,False,False,2670,1037,1126,2264,407,781
+84,84,84,NCT02733250,pembrolizumab,nab-paclitaxel,False,False,3453,2259,836,494,157,166
+85,85,85,NCT00193323,docetaxel,gemcitabine,False,False,2102,330,975,2264,407,781
+86,86,86,NCT03460678,pemetrexed,erlotinib,False,False,2670,1037,1126,4655,2945,1026
+87,87,87,NCT02511184,crizotinib,pembrolizumab,False,False,763,525,153,3453,2259,836
+88,88,88,NCT01652469,erlotinib,docetaxel,False,False,4655,2945,1026,2102,330,975
+89,89,89,NCT00489983,pemetrexed,gemcitabine,False,False,2670,1037,1126,2264,407,781
+102,102,102,NCT00754364,"pemetrexed, carboplatin",gemcitabine,True,False,6092,5037,769,2264,407,781
+103,103,103,NCT02595840,afatinib,pemetrexed,False,False,1046,502,334,2670,1037,1126
+105,105,105,NCT03810872,afatinib,paclitaxel,False,False,1046,502,334,494,157,166
+107,107,107,NCT01523587,afatinib,erlotinib,False,False,1046,502,334,4655,2945,1026
+114,114,114,NCT02625168,afatinib,erlotinib,False,False,1046,502,334,4655,2945,1026
+115,115,115,NCT03157089,afatinib,pembrolizumab,False,False,1046,502,334,3453,2259,836
+116,116,116,NCT00061464,pemetrexed,gemcitabine,False,False,2670,1037,1126,2264,407,781
+117,117,117,NCT00071136,pemetrexed,gemcitabine,False,False,2670,1037,1126,2264,407,781
+118,118,118,NCT01757288,nab-paclitaxel,paclitaxel,False,False,494,157,166,494,157,166
+122,122,122,NCT00447057,pemetrexed,erlotinib,False,False,2670,1037,1126,4655,2945,1026
+130,130,130,NCT00702182,vinorelbine,erlotinib,False,False,1072,194,235,4655,2945,1026
+131,131,131,NCT00440414,erlotinib,pemetrexed,False,False,4655,2945,1026,2670,1037,1126
+133,133,133,NCT01196078,erlotinib,vinorelbine,False,False,4655,2945,1026,1072,194,235
+137,137,137,NCT00940875,erlotinib,gemcitabine,False,False,4655,2945,1026,2264,407,781
+146,146,146,NCT00881296,"gemcitabine, carboplatin",gemcitabine,True,False,1860,1162,429,2264,407,781
+148,148,148,NCT00004159,gemcitabine,paclitaxel,False,False,2264,407,781,494,157,166
+149,149,149,NCT00003447,gemcitabine,vinorelbine,False,False,2264,407,781,1072,194,235
+150,150,150,NCT00022646,gemcitabine,pemetrexed,False,False,2264,407,781,2670,1037,1126
+152,152,152,NCT00003762,docetaxel,gemcitabine,False,False,2102,330,975,2264,407,781
+153,153,153,NCT00407550,gemcitabine,pemetrexed,False,False,2264,407,781,2670,1037,1126
+155,155,155,NCT02364609,afatinib,pembrolizumab,False,False,1046,502,334,3453,2259,836
+157,157,157,NCT00075517,docetaxel,gemcitabine,False,False,2102,330,975,2264,407,781
+160,160,160,NCT00278460,docetaxel,gemcitabine,False,False,2102,330,975,2264,407,781
+161,161,161,NCT01063283,"carboplatin, pemetrexed, bevacizumab","carboplatin, pemetrexed, bevacizumab",True,True,3452,2834,440,3452,2834,440
+163,163,163,NCT00387322,erlotinib,pemetrexed,False,False,4655,2945,1026,2670,1037,1126
+166,166,166,NCT00738881,erlotinib,pemetrexed,False,False,4655,2945,1026,2670,1037,1126
+167,167,167,NCT00026156,docetaxel,vinorelbine,False,False,2102,330,975,1072,194,235
+169,169,169,NCT01204697,docetaxel,erlotinib,False,False,2102,330,975,4655,2945,1026
+171,171,171,NCT00786331,pemetrexed,"pemetrexed, carboplatin",False,True,2670,1037,1126,6092,5037,769
