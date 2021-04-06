@@ -1,6 +1,6 @@
 # Trial PathFinder
 
-Python library for Trial Pathfinder, an AI framework to systematically evaluate clinical trial eligibility criteria. Functions provided: encoding eligibility criteria, emulating existing trials under combinations of eligibility criteria, evaluating individual eligibiliey rule and suggesting data-driven criteria. This repository also contains tutorials and examples to use the library; see [tutorials/tutorial.ipynb](https://github.com/RuishanLiu/TrialPathfinder/blob/master/tutorial/tutorial.ipynb).
+Python library for Trial Pathfinder, an AI framework to systematically evaluate clinical trial eligibility criteria. Functions provided: encoding eligibility criteria, emulating existing trials under combinations of eligibility criteria, evaluating individual eligibiliey rule and suggesting data-driven criteria. 
 
 Reference paper: [Evaluating Oncology Trial Eligibility Criteria using Real-World Data and AI](https://dx.doi.org/10.1038/s41586-021-03430-5)
 
@@ -20,7 +20,7 @@ python setup.py install --user
 
 # Quick Guidance
 
-Here we give a quick guidance of using TrialPathfinder. More details see [tutorial.ipynb](https://github.com/RuishanLiu/TrialPathfinder/blob/master/tutorial/tutorial.ipynb).
+Here we give a quick guidance of using TrialPathfinder. More details see [tutorial/tutorial.ipynb](https://github.com/RuishanLiu/TrialPathfinder/blob/master/tutorial/tutorial.ipynb).
 
 ```python
 import TrialPathfinder as tp
@@ -55,7 +55,7 @@ HR, CI, data_cox = tp.emulate_trials(cohort, features, drug_treatment, drug_cont
 # Documentation
 
 
-We highly recommend reading the [tutorial.ipynb](https://github.com/RuishanLiu/TrialPathfinder/blob/master/tutorial/tutorial.ipynb).
+We highly recommend reading the [tutorial/tutorial.ipynb](https://github.com/RuishanLiu/TrialPathfinder/blob/master/tutorial/tutorial.ipynb).
 
 
 ## 1. Data Requirements
