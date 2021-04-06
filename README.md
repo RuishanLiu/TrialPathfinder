@@ -1,15 +1,13 @@
 # Trial PathFinder
 
-Python library for Trial Pathfinder, an AI framework to systematically evaluate clinical trial eligibility criteria. Functions provided by this package: encoding eligibility criteria, emulating existing trials under combinations of eligibility criteria, evaluating individual eligibiliey rule and suggesting data-driven criteria.
+Python library for Trial Pathfinder, an AI framework to systematically evaluate clinical trial eligibility criteria. Functions provided: encoding eligibility criteria, emulating existing trials under combinations of eligibility criteria, evaluating individual eligibiliey rule and suggesting data-driven criteria. This repository also contains tutorials and examples to use the library; see [tutorials/tutorial.ipynb](https://github.com/RuishanLiu/TrialPathfinder/blob/master/tutorial/tutorial.ipynb).
 
-*Working paper. More background and information will be provided when the paper is ready.*
-
-This repository contains tutorials and examples to use the library; see [tutorials/tutorial.ipynb](https://github.com/RuishanLiu/TrialPathfinder/blob/master/tutorial/tutorial.ipynb).
+Reference paper: [Evaluating Oncology Trial Eligibility Criteria using Real-World Data and AI](https://dx.doi.org/10.1038/s41586-021-03430-5)
 
 
 # Installation
 
-The package TrialPathfinder is available on PyPI -
+The package TrialPathfinder is available on PyPI
 ```shell
 pip install TrialPathfinder
 ```
@@ -77,7 +75,7 @@ TrialPathfinder reads tables in Pandas dataframe structure (pd.dataframe) as def
 - Use the same Patient ID as the features table.
 
 
-## 2. Stadards of encoding eligibility criteria
+## 2. Standards of encoding eligibility criteria
 
 We built a computational workflow to encode the description of eligibility criteria in the protocols into standardized instructions which can be parsed by Trial Pathfinder for cohort selection use. 
 
