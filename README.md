@@ -1,6 +1,6 @@
 # Trial PathFinder
 
-Python library for Trial Pathfinder, an AI framework to systematically evaluate clinical trial eligibility criteria. Functions provided: encoding eligibility criteria, emulating existing trials under combinations of eligibility criteria, evaluating individual eligibiliey rule and suggesting data-driven criteria. 
+Python library for Trial Pathfinder, an AI framework to systematically evaluate clinical trial eligibility criteria. Functions provided: encoding eligibility criteria, emulating existing trials under combinations of inclusion/exclusion rules, evaluating individual eligibiliey rule with Shapley value and suggesting data-driven criteria. 
 
 Reference paper: [Evaluating Oncology Trial Eligibility Criteria using Real-World Data and AI](https://dx.doi.org/10.1038/s41586-021-03430-5)
 
