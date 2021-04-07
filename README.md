@@ -1,8 +1,8 @@
 # Trial PathFinder
 
-Python library for Trial Pathfinder, an AI framework to systematically evaluate clinical trial eligibility criteria. Functions provided: encoding eligibility criteria, emulating existing trials under combinations of inclusion/exclusion rules, evaluating individual eligibiliey rule with Shapley value and suggesting data-driven criteria. 
+Python library for Trial Pathfinder, an AI framework to systematically evaluate clinical trial eligibility criteria. Functions provided by TrialPathfinder: encoding eligibility criteria, emulating existing trials under combinations of eligibility rules, evaluating individual eligibility rule with Shapley value and suggesting data-driven criteria. 
 
-Reference paper: [Evaluating Oncology Trial Eligibility Criteria using Real-World Data and AI](https://dx.doi.org/10.1038/s41586-021-03430-5)
+Reference paper: [Evaluating Oncology Trial Eligibility Criteria using Real-World Data and AI](https://dx.doi.org/10.1038/s41586-021-03430-5).
 
 
 # Installation
@@ -39,7 +39,7 @@ cohort.add_rule(rule1)
 # Given a combination of eligibility rules names_rules (an empty list name_rules=[] indicates fully-relaxed criteria)).
 HR, CI, data_cox = tp.emulate_trials(cohort, features, drug_treatment, drug_control, name_rules)
 
-###### Evalute Individual Criterion ######
+###### Evaluate Individual Criterion ######
 
 # Return the Shapley values for each rule in names_rules
 shapley_values = tp.shapley_computation(cohort, features, drug_treatment, drug_control, names_rules)
@@ -96,7 +96,7 @@ We built a computational workflow to encode the description of eligibility crite
 features['StartDate'] >= demographics['BirthDate'] + @YEARS(18> 
 
 
-**2. Complex rule with hierachy.**
+**2. Complex rule with hierarchy.**
 - Each row is operated in sequential order
     - The tables are prepared before the last row. 
     - The patients are selected at the last row. 
